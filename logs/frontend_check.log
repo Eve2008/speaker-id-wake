@@ -1,0 +1,12 @@
+wespeaker_campplus_vox sherpa-onnx 0.4954
+wespeaker_campplus_vox povey_7600_cmn_int16 0.4019 cos-to-sherpa -0.0622
+wespeaker_campplus_vox povey_7600_nocmn_int16 0.362 cos-to-sherpa -0.0571
+wespeaker_campplus_vox hamming_8000_cmn_int16 0.4033 cos-to-sherpa -0.0636
+wespeaker_campplus_vox hamming_8000_nocmn_int16 0.367 cos-to-sherpa -0.0628
+wespeaker_campplus_vox hamming_8000_cmn_float 0.1183 cos-to-sherpa -0.0112
+wespeaker_campplus_vox povey_7600_cmn_int16_nosnip 0.4054 cos-to-sherpa -0.0655
+wespeaker_resnet34_vox sherpa-onnx 0.3525
+wespeaker_resnet34_vox povey_7600_cmn_int16 0.42 cos-to-sherpa 0.8887
+wespeaker_resnet34_vox povey_7600_nocmn_int16 0.3531 cos-to-sherpa 0.9812
+wespeaker_resnet34_vox hamming_8000_cmn_int16 0.4132 cos-to-sherpa 0.8778
+wespeaker_resnet34_vox hamming_8000_nocmn_int16 0.3357 cos-to-sherpa 0.9527

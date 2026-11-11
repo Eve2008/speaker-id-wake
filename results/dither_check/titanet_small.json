@@ -1,0 +1,18 @@
+{
+ "model": "titanet_small",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "raw": {
+  "eer_cos_1s": 0.11691954022988507,
+  "mindcf_1s": 0.8316666666666646,
+  "closed_set_acc_N5_1s": 0.9111333333333332,
+  "norm_of_mean_test_embedding": 0.3740437136823182
+ },
+ "dither_1lsb": {
+  "eer_cos_1s": 0.11666666666666667,
+  "mindcf_1s": 0.8283333333333368,
+  "closed_set_acc_N5_1s": 0.9115,
+  "norm_of_mean_test_embedding": 0.3744163604441259
+ }
+}

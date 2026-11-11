@@ -1,0 +1,60 @@
+wespeaker_campplus_vox {
+ "python_ort vs sherpa_onnx": -0.04583503897851977,
+ "node_ort_1.27.0 vs python_ort": -0.045493105472713874,
+ "node_ort_1.27.0 vs sherpa_onnx": 0.9854689287324565,
+ "node_ort_1.27.0 vs node_ort_1.29.0": -0.045492898513666155,
+ "node_ort_1.27.0 vs node_ort_1.31.1": -0.045492898513666155,
+ "node_ort_1.29.0 vs python_ort": 0.999999992619828,
+ "node_ort_1.29.0 vs sherpa_onnx": -0.04583383641657425,
+ "node_ort_1.29.0 vs node_ort_1.31.1": 1.0000000014894284,
+ "node_ort_1.31.1 vs python_ort": 0.999999992619828,
+ "node_ort_1.31.1 vs sherpa_onnx": -0.04583383641657425
+}
+wespeaker_resnet34_vox {
+ "python_ort vs sherpa_onnx": 0.9772326517035674,
+ "node_ort_1.27.0 vs python_ort": 1.0000000037041465,
+ "node_ort_1.27.0 vs sherpa_onnx": 0.9772326517035674,
+ "node_ort_1.27.0 vs node_ort_1.29.0": 1.0000000037041465,
+ "node_ort_1.27.0 vs node_ort_1.31.1": 1.0000000037041465,
+ "node_ort_1.29.0 vs python_ort": 1.0000000037041465,
+ "node_ort_1.29.0 vs sherpa_onnx": 0.9772326517035674,
+ "node_ort_1.29.0 vs node_ort_1.31.1": 1.0000000037041465,
+ "node_ort_1.31.1 vs python_ort": 1.0000000037041465,
+ "node_ort_1.31.1 vs sherpa_onnx": 0.9772326517035674
+}
+wespeaker_resnet34_cnc {
+ "python_ort vs sherpa_onnx": 0.9749667346711003,
+ "node_ort_1.27.0 vs python_ort": 0.9999999743299521,
+ "node_ort_1.27.0 vs sherpa_onnx": 0.9749667346711003,
+ "node_ort_1.27.0 vs node_ort_1.29.0": 0.9999999743299521,
+ "node_ort_1.27.0 vs node_ort_1.31.1": 0.9999999743299521,
+ "node_ort_1.29.0 vs python_ort": 0.9999999743299521,
+ "node_ort_1.29.0 vs sherpa_onnx": 0.9749667346711003,
+ "node_ort_1.29.0 vs node_ort_1.31.1": 0.9999999743299521,
+ "node_ort_1.31.1 vs python_ort": 0.9999999743299521,
+ "node_ort_1.31.1 vs sherpa_onnx": 0.9749667346711003
+}
+campplus_zhen_adv {
+ "python_ort vs sherpa_onnx": 0.8644273888262497,
+ "node_ort_1.27.0 vs python_ort": 0.8873113754810176,
+ "node_ort_1.27.0 vs sherpa_onnx": 0.9708530307747778,
+ "node_ort_1.27.0 vs node_ort_1.29.0": 0.8873113226524519,
+ "node_ort_1.27.0 vs node_ort_1.31.1": 0.8873113226524519,
+ "node_ort_1.29.0 vs python_ort": 0.9999999908906576,
+ "node_ort_1.29.0 vs sherpa_onnx": 0.8644273791881203,
+ "node_ort_1.29.0 vs node_ort_1.31.1": 0.9999999909212537,
+ "node_ort_1.31.1 vs python_ort": 0.9999999908906576,
+ "node_ort_1.31.1 vs sherpa_onnx": 0.8644273791881203
+}
+eres2net_base_zh {
+ "python_ort vs sherpa_onnx": 0.9742425452447991,
+ "node_ort_1.27.0 vs python_ort": 1.0000000003732585,
+ "node_ort_1.27.0 vs sherpa_onnx": 0.9742425452447991,
+ "node_ort_1.27.0 vs node_ort_1.29.0": 1.0000000003732585,
+ "node_ort_1.27.0 vs node_ort_1.31.1": 1.0000000003732585,
+ "node_ort_1.29.0 vs python_ort": 1.0000000003732585,
+ "node_ort_1.29.0 vs sherpa_onnx": 0.9742425452447991,
+ "node_ort_1.29.0 vs node_ort_1.31.1": 1.0000000003732585,
+ "node_ort_1.31.1 vs python_ort": 1.0000000003732585,
+ "node_ort_1.31.1 vs sherpa_onnx": 0.9742425452447991
+}

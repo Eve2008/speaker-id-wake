@@ -1,0 +1,18 @@
+{
+ "model": "wespeaker_resnet34_vox_cmn",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "raw": {
+  "eer_cos_1s": 0.41024822695035457,
+  "mindcf_1s": 1.0,
+  "closed_set_acc_N5_1s": 0.5533333333333333,
+  "norm_of_mean_test_embedding": 0.8299378462813041
+ },
+ "dither_1lsb": {
+  "eer_cos_1s": 0.08333333333333331,
+  "mindcf_1s": 0.7333333333333372,
+  "closed_set_acc_N5_1s": 0.9376333333333332,
+  "norm_of_mean_test_embedding": 0.3979892736396693
+ }
+}

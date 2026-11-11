@@ -1,0 +1,8 @@
+[wespeaker_campplus_vox] seed 0 done, 0.1 min
+[wespeaker_campplus_vox] seed 1 done, 0.3 min
+[wespeaker_campplus_vox] seed 2 done, 0.4 min
+[wespeaker_campplus_vox] seed 3 done, 0.6 min
+[wespeaker_campplus_vox] seed 4 done, 0.7 min
+/home/ali/Desktop/Articles/artifacts/speaker-id-wake/experiments/19_paired.py:145: RuntimeWarning: Mean of empty slice
+  per_spk = {k: np.nanmean(v, axis=0)[pop] for k, v in vals.items()}
+{"model": "wespeaker_campplus_vox", "n_metric_keys_checked": 156, "max_abs_diff_vs_main_csv": 9.915973241819698e-08, "max_abs_diff_eer_vs_eer_csv": 0.0, "minutes": 0.8653346578280131}

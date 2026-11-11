@@ -1,0 +1,96 @@
+{
+ "release_tag": "speaker-recongition-models",
+ "n_assets": 36,
+ "n_onnx": 21,
+ "n_onnx_le_40.3MB": 14,
+ "n_onnx_gt_40.3MB": 7,
+ "small": [
+  [
+   "nemo_en_speakerverification_speakernet.onnx",
+   23.4
+  ],
+  [
+   "3dspeaker_speech_eres2net_sv_en_voxceleb_16k.onnx",
+   26.5
+  ],
+  [
+   "wespeaker_zh_cnceleb_resnet34_LM.onnx",
+   26.5
+  ],
+  [
+   "wespeaker_en_voxceleb_resnet34_LM.onnx",
+   26.5
+  ],
+  [
+   "wespeaker_zh_cnceleb_resnet34.onnx",
+   26.5
+  ],
+  [
+   "wespeaker_en_voxceleb_resnet34.onnx",
+   26.5
+  ],
+  [
+   "3dspeaker_speech_campplus_sv_zh-cn_16k-common.onnx",
+   28.3
+  ],
+  [
+   "3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+   28.3
+  ],
+  [
+   "wespeaker_en_voxceleb_CAM++.onnx",
+   29.3
+  ],
+  [
+   "wespeaker_en_voxceleb_CAM++_LM.onnx",
+   29.3
+  ],
+  [
+   "3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx",
+   29.6
+  ],
+  [
+   "3dspeaker_speech_eres2net_base_sv_zh-cn_3dspeaker_16k.onnx",
+   39.6
+  ],
+  [
+   "3dspeaker_speech_eres2net_base_200k_sv_zh-cn_16k-common.onnx",
+   39.6
+  ],
+  [
+   "nemo_en_titanet_small.onnx",
+   40.3
+  ]
+ ],
+ "large": [
+  [
+   "3dspeaker_speech_eres2netv2_sv_zh-cn_16k-common.onnx",
+   71.4
+  ],
+  [
+   "wespeaker_en_voxceleb_resnet152_LM.onnx",
+   79.2
+  ],
+  [
+   "wespeaker_en_voxceleb_resnet221_LM.onnx",
+   95.0
+  ],
+  [
+   "nemo_en_titanet_large.onnx",
+   101.4
+  ],
+  [
+   "wespeaker_en_voxceleb_resnet293_LM.onnx",
+   114.3
+  ],
+  [
+   "3dspeaker_speech_eres2net_large_sv_zh-cn_3dspeaker_16k.onnx",
+   116.1
+  ],
+  [
+   "3dspeaker_speech_eres2net_sv_zh-cn_16k-common.onnx",
+   220.6
+  ]
+ ],
+ "n_onnx_in_checksum_file": 21
+}

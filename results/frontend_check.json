@@ -1,0 +1,76 @@
+{
+ "n_speakers": 100,
+ "n_test": 600,
+ "runs": [
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "sherpa-onnx",
+   "eer_cos_1s": 0.49538002171552653
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "povey_7600_cmn_int16",
+   "eer_cos_1s": 0.4018734793187348,
+   "median_cos_to_sherpa_embedding": -0.06224141000751376
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "povey_7600_nocmn_int16",
+   "eer_cos_1s": 0.3620381526104418,
+   "median_cos_to_sherpa_embedding": -0.05711042388732823
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "hamming_8000_cmn_int16",
+   "eer_cos_1s": 0.4033333333333333,
+   "median_cos_to_sherpa_embedding": -0.06356377118887946
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "hamming_8000_nocmn_int16",
+   "eer_cos_1s": 0.367,
+   "median_cos_to_sherpa_embedding": -0.06275047252907823
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "hamming_8000_cmn_float",
+   "eer_cos_1s": 0.11833333333333335,
+   "median_cos_to_sherpa_embedding": -0.011189082151445344
+  },
+  {
+   "model": "wespeaker_campplus_vox",
+   "frontend": "povey_7600_cmn_int16_nosnip",
+   "eer_cos_1s": 0.40542780748663104,
+   "median_cos_to_sherpa_embedding": -0.06546038680778929
+  },
+  {
+   "model": "wespeaker_resnet34_vox",
+   "frontend": "sherpa-onnx",
+   "eer_cos_1s": 0.3525372023809524
+  },
+  {
+   "model": "wespeaker_resnet34_vox",
+   "frontend": "povey_7600_cmn_int16",
+   "eer_cos_1s": 0.42,
+   "median_cos_to_sherpa_embedding": 0.8887365874164651
+  },
+  {
+   "model": "wespeaker_resnet34_vox",
+   "frontend": "povey_7600_nocmn_int16",
+   "eer_cos_1s": 0.3531309904153354,
+   "median_cos_to_sherpa_embedding": 0.9812139801508573
+  },
+  {
+   "model": "wespeaker_resnet34_vox",
+   "frontend": "hamming_8000_cmn_int16",
+   "eer_cos_1s": 0.4132456140350877,
+   "median_cos_to_sherpa_embedding": 0.8777924180386909
+  },
+  {
+   "model": "wespeaker_resnet34_vox",
+   "frontend": "hamming_8000_nocmn_int16",
+   "eer_cos_1s": 0.33568807339449547,
+   "median_cos_to_sherpa_embedding": 0.9526600521298815
+  }
+ ]
+}

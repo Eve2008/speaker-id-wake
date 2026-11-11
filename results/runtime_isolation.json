@@ -1,0 +1,165 @@
+{
+ "onnxruntime_python": "1.31.1",
+ "sherpa_onnx": "2.0.1",
+ "patch": {
+  "source": "3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+  "source_sha256": "aa3cfc16963a10586a9393f5035d6d6b57e98d358b347f80c2a30bf4f00ceba2",
+  "patched": "patched/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced_cip0.onnx",
+  "patched_sha256": "83ffe3e44ba2bedcabd4c860c0ae8a511765b3d2d866db045530eac50f32f878",
+  "nodes_patched": 52,
+  "change": "AveragePool attribute count_include_pad 1 -> 0 (protobuf varint 0x01 -> 0x00)"
+ },
+ "avgpool_toy": {
+  "count_include_pad=absent(0)": {
+   "L=49": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0
+    ]
+   },
+   "L=100": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0
+    ]
+   },
+   "L=150": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0,
+     1.0
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0,
+     1.0
+    ]
+   },
+   "L=250": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "count_include_pad=1": {
+   "L=49": {
+    "ort_1.28.2_sherpa_bundled": [
+     0.49
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0
+    ]
+   },
+   "L=100": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0
+    ]
+   },
+   "L=150": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0,
+     0.5
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0,
+     1.0
+    ]
+   },
+   "L=250": {
+    "ort_1.28.2_sherpa_bundled": [
+     1.0,
+     1.0,
+     0.5
+    ],
+    "ort_1.31.1_ctypes": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "ctypes_validation": {
+  "max_rel_abs_diff_ctypes_1.31.1_vs_python_1.31.1": 0.0,
+  "n_runs": 280
+ },
+ "n_utterances": {
+  "1s": 20,
+  "3s": 20
+ },
+ "features": "NumPy fbank with sherpa-onnx conventions (Povey window, 20-7600 Hz, sample scale and CMN from the model metadata); TitaNet gets the same features transposed, not NeMo features, so only its runtime comparison is meaningful",
+ "median_cosine": {
+  "campplus_zhen_adv": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 0.8873113226524519,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9708530307747778,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.8644273791881203,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 0.9445361866033135,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9821434592270197,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9299623486474692
+  },
+  "campplus_zhen_adv_cip0": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 0.9999999909212537,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9600250572364416,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9600250572364416,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 1.0000000146428136,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9810870096780245,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9810870096780245,
+   "1s: patched on 1.28.2 vs original on 1.31.1 (same features)": 0.9999999909212537,
+   "1s: patched vs original, both on 1.31.1": 0.9999999909212537,
+   "1s: patched vs original, both on 1.28.2": 0.8873113226524519,
+   "1s: sherpa-onnx patched vs sherpa-onnx original": 0.8842193499954221,
+   "3s: patched on 1.28.2 vs original on 1.31.1 (same features)": 1.0000000146428136,
+   "3s: patched vs original, both on 1.31.1": 1.0000000146428136,
+   "3s: patched vs original, both on 1.28.2": 0.9445361866033135,
+   "3s: sherpa-onnx patched vs sherpa-onnx original": 0.9465269844045312
+  },
+  "eres2net_base_zh": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 1.0000000003732585,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9742425452447991,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9742425452447991,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 1.0000000188096438,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.985361060904435,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.985361060904435
+  },
+  "titanet_small": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 0.9999999744991511,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 1.000000003483201
+  },
+  "wespeaker_campplus_vox": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": -0.045492898513666155,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9854689287324565,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": -0.04583383641657425,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 0.038163925522463026,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9969629432073863,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.04984221967282321
+  },
+  "wespeaker_resnet34_vox": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 1.0000000037041465,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9772326517035674,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9772326517035674,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 1.000000010615973,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9902607774061527,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9902607774061527
+  },
+  "wespeaker_resnet34_cnc": {
+   "1s: ort 1.28.2 vs 1.31.1 (same features)": 0.9999999743299521,
+   "1s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9749667346711003,
+   "1s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9749667346711003,
+   "3s: ort 1.28.2 vs 1.31.1 (same features)": 1.0000000388696617,
+   "3s: sherpa-onnx vs ort 1.28.2 (front end only)": 0.9855210082497377,
+   "3s: sherpa-onnx vs ort 1.31.1 (front end + runtime)": 0.9855210082497377
+  }
+ }
+}

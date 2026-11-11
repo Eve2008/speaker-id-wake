@@ -1,0 +1,18 @@
+{
+ "model": "campplus_zhen_adv",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "raw": {
+  "eer_cos_1s": 0.0800151515151515,
+  "mindcf_1s": 0.6316666666666684,
+  "closed_set_acc_N5_1s": 0.9472666666666667,
+  "norm_of_mean_test_embedding": 0.4448910508379404
+ },
+ "dither_1lsb": {
+  "eer_cos_1s": 0.07500000000000001,
+  "mindcf_1s": 0.6266666666666665,
+  "closed_set_acc_N5_1s": 0.9538999999999999,
+  "norm_of_mean_test_embedding": 0.44706852556508664
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "config": "wespeaker_resnet34_vox_wsfe",
+ "backend": "none",
+ "bootstrap_population": 1362,
+ "backend_fit": []
+}

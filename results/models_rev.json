@@ -1,0 +1,59 @@
+{
+ "campplus_vox_cip0_d1": {
+  "file": "patched/3dspeaker_speech_campplus_sv_en_voxceleb_16k_cip0.onnx",
+  "file_mb": 29.596978,
+  "sha256": "a9dda3bb22ddb88504012891d87544f8d68fc859f559f4520eab10cf51c4c7a3",
+  "dim": 512,
+  "release_file": "3dspeaker_speech_campplus_sv_en_voxceleb_16k.onnx",
+  "release_sha256": "357a834f702b80161e5b981182c038e18553c1f2ca752ed6cec2052365d4129b",
+  "release_sha256_matches_checksum_file": true,
+  "metadata": {
+   "normalize_samples": "1",
+   "output_dim": "512",
+   "comment": "This model is from iic/speech_campplus_sv_en_voxceleb_16k",
+   "url": "https://www.modelscope.cn/models/iic/speech_campplus_sv_en_voxceleb_16k/summary",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "English",
+   "framework": "3d-speaker"
+  }
+ },
+ "eres2net_vox_d1": {
+  "file": "3dspeaker_speech_eres2net_sv_en_voxceleb_16k.onnx",
+  "file_mb": 26.485263,
+  "sha256": "c59158379255ad66e161679cca6af8d52d51e389e3224ab7d7a7baae295c2db5",
+  "dim": 192,
+  "release_file": "3dspeaker_speech_eres2net_sv_en_voxceleb_16k.onnx",
+  "release_sha256": "c59158379255ad66e161679cca6af8d52d51e389e3224ab7d7a7baae295c2db5",
+  "release_sha256_matches_checksum_file": true,
+  "metadata": {
+   "normalize_samples": "1",
+   "output_dim": "192",
+   "comment": "This model is from iic/speech_eres2net_sv_en_voxceleb_16k",
+   "url": "https://www.modelscope.cn/models/iic/speech_eres2net_sv_en_voxceleb_16k/summary",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "English",
+   "framework": "3d-speaker"
+  }
+ },
+ "campplus_zhen_adv_cip0": {
+  "file": "patched/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced_cip0.onnx",
+  "file_mb": 28.281164,
+  "sha256": "83ffe3e44ba2bedcabd4c860c0ae8a511765b3d2d866db045530eac50f32f878",
+  "dim": 192,
+  "release_file": "3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+  "release_sha256": "aa3cfc16963a10586a9393f5035d6d6b57e98d358b347f80c2a30bf4f00ceba2",
+  "release_sha256_matches_checksum_file": true,
+  "metadata": {
+   "normalize_samples": "1",
+   "output_dim": "192",
+   "comment": "This model is from iic/speech_campplus_sv_zh_en_16k-common_advanced",
+   "url": "https://www.modelscope.cn/models/iic/speech_campplus_sv_zh_en_16k-common_advanced/summary",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "Chinese-English",
+   "framework": "3d-speaker"
+  }
+ }
+}

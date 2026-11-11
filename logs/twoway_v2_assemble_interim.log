@@ -1,0 +1,36 @@
+{
+ "n_boot": 500,
+ "population": 1362,
+ "configs": [
+  "campplus_zhen_adv",
+  "eres2net_base_zh",
+  "titanet_small",
+  "wespeaker_campplus_vox_wsfe",
+  "wespeaker_resnet34_vox_wsfe",
+  "wespeaker_resnet34_cnc_wsfe",
+  "campplus_zhen_adv_cip0_d1",
+  "titanet_small_d1",
+  "campplus_zhen_adv_d1",
+  "campplus_zhen_adv_cip0",
+  "campplus_zhen_adv_np128",
+  "campplus_zhen_adv_ort131",
+  "campplus_zhen_adv__cw",
+  "eres2net_base_zh__cw",
+  "titanet_small__cw",
+  "wespeaker_campplus_vox_wsfe__cw"
+ ],
+ "width_ratio_EER_min": 1.5328435568781063,
+ "width_ratio_EER_max": 1.9585023575234912,
+ "width_ratio_diff_min": 1.403892510368456,
+ "width_ratio_diff_max": 2.055373041232042,
+ "width_ratio_median": 1.7351686662990948,
+ "differences_whose_ci_excludes_0_only_one_way": [
+  "campplus_zhen_adv_d1 minus campplus_zhen_adv, 3 s",
+  "eres2net_base_zh minus campplus_zhen_adv, 2 s",
+  "eres2net_base_zh minus campplus_zhen_adv, 3 s",
+  "titanet_small__cw minus titanet_small, 1 s",
+  "wespeaker_resnet34_cnc_wsfe minus campplus_zhen_adv, 3 s",
+  "wespeaker_resnet34_vox_wsfe minus campplus_zhen_adv, 1 s"
+ ],
+ "differences_whose_ci_excludes_0_only_two_way": []
+}

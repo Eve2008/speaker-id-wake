@@ -1,0 +1,29 @@
+| model | test | EER cosine % | EER AS-norm % | closed-set N=5 % | closed-set N=20 % | NexaRoom rule N=5: correct / wrong / stranger % | AS-norm @ dev 1% FA, N=5: correct % | CPU ms |
+|---|---|---|---|---|---|---|---|---|
+| 3D-Speaker CAM++ (NexaRoom default) | 1 s | 8.44 | 7.20 | 94.5 | 87.0 | 37.9 / 0.05 / 0.26 | 65.0 | 22.5 |
+| 3D-Speaker CAM++ (NexaRoom default) | 2 s | 3.10 | 2.28 | 99.1 | 97.6 | 91.2 / 0.06 / 3.40 | 90.6 | 37.7 |
+| 3D-Speaker CAM++ (NexaRoom default) | 3 s | 2.07 | 1.56 | 99.5 | 98.7 | 96.3 / 0.05 / 5.61 | 94.4 | 54.3 |
+| 3D-Speaker ERes2Net-base | 1 s | 6.58 | 5.03 | 97.2 | 93.0 | 73.8 / 0.13 / 2.45 | 76.4 | 52.2 |
+| 3D-Speaker ERes2Net-base | 2 s | 2.80 | 2.01 | 99.3 | 98.2 | 96.6 / 0.11 / 14.01 | 92.9 | 104.8 |
+| 3D-Speaker ERes2Net-base | 3 s | 1.78 | 1.22 | 99.6 | 99.1 | 98.5 / 0.07 / 18.55 | 96.8 | 159.5 |
+| NeMo TitaNet-small | 1 s | 10.62 | 9.02 | 92.3 | 82.4 | 19.1 / 0.06 / 0.21 | 55.0 | 18.0 |
+| NeMo TitaNet-small | 2 s | 4.28 | 3.33 | 98.4 | 95.6 | 81.5 / 0.12 / 2.50 | 85.0 | 31.8 |
+| NeMo TitaNet-small | 3 s | 2.66 | 1.99 | 99.3 | 98.1 | 93.7 / 0.08 / 3.88 | 93.7 | 45.8 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 1 s | 10.84 | 9.55 | 91.6 | 81.0 | 21.5 / 0.12 / 0.37 | 49.7 | 22.0 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 2 s | 5.21 | 4.45 | 97.5 | 93.4 | 80.5 / 0.24 / 3.74 | 76.2 | 37.2 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 3 s | 3.08 | 2.54 | 98.8 | 96.9 | 93.2 / 0.15 / 6.25 | 87.5 | 54.9 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 1 s | 8.82 | 7.64 | 93.4 | 84.8 | 31.7 / 0.20 / 0.55 | 57.6 | 50.4 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 2 s | 3.81 | 3.21 | 98.3 | 95.4 | 87.4 / 0.19 / 4.05 | 83.2 | 98.3 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 3 s | 2.24 | 1.82 | 99.3 | 98.0 | 95.8 / 0.08 / 6.14 | 92.0 | 147.9 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 1 s | 7.93 | 6.29 | 96.0 | 89.8 | 65.9 / 0.23 / 3.09 | 67.4 | 51.0 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 2 s | 3.68 | 2.68 | 98.9 | 97.0 | 94.8 / 0.17 / 16.23 | 88.2 | 98.3 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 3 s | 2.38 | 1.55 | 99.5 | 98.6 | 97.7 / 0.09 / 21.31 | 94.5 | 147.9 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 1 s | 7.72 | 6.81 | 94.7 | 87.3 | 40.0 / 0.05 / 0.25 | 66.6 | 22.5 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 2 s | 2.75 | 2.18 | 99.2 | 97.7 | 91.1 / 0.06 / 2.74 | 91.2 | 37.7 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 3 s | 1.88 | 1.57 | 99.5 | 98.7 | 96.3 / 0.05 / 4.69 | 94.6 | 54.3 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 1 s | 7.34 | 6.01 | 96.1 | 90.2 | 42.7 / 0.04 / 0.27 | 70.5 | 22.3 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 2 s | 3.05 | 2.30 | 99.2 | 97.6 | 91.1 / 0.06 / 3.45 | 90.6 | 38.5 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 3 s | 1.70 | 1.25 | 99.6 | 99.1 | 97.3 / 0.03 / 5.73 | 95.9 | 55.0 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 1 s | 49.73 | 50.00 | 21.6 | 5.7 | 0.0 / 0.00 / 0.00 | 0.2 | 21.7 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 2 s | 48.31 | 50.00 | 33.6 | 11.9 | 0.0 / 0.00 / 0.00 | 0.3 | 37.3 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 3 s | 47.82 | 50.00 | 25.7 | 7.7 | 0.2 / 0.04 / 0.10 | 0.3 | 54.2 |

@@ -1,0 +1,8 @@
+[eres2net_base_zh] seed 0 done, 0.2 min
+[eres2net_base_zh] seed 1 done, 0.3 min
+[eres2net_base_zh] seed 2 done, 0.5 min
+[eres2net_base_zh] seed 3 done, 0.7 min
+[eres2net_base_zh] seed 4 done, 0.8 min
+/home/ali/Desktop/Articles/artifacts/speaker-id-wake/experiments/19_paired.py:145: RuntimeWarning: Mean of empty slice
+  per_spk = {k: np.nanmean(v, axis=0)[pop] for k, v in vals.items()}
+{"model": "eres2net_base_zh", "n_metric_keys_checked": 156, "max_abs_diff_vs_main_csv": 1.2440855012840757e-08, "max_abs_diff_eer_vs_eer_csv": 0.0, "minutes": 0.9463961601257325}

@@ -1,0 +1,37 @@
+{
+ "config": "titanet_small__cw",
+ "backend": "cw",
+ "bootstrap_population": 1362,
+ "backend_fit": [
+  {
+   "seed": 0,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.467450548178231e-06
+  },
+  {
+   "seed": 1,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.441746481578037e-06
+  },
+  {
+   "seed": 2,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.436360927810953e-06
+  },
+  {
+   "seed": 3,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.4624008578364136e-06
+  },
+  {
+   "seed": 4,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.430709095997097e-06
+  }
+ ]
+}

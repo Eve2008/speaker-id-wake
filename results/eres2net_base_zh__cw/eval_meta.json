@@ -1,0 +1,37 @@
+{
+ "config": "eres2net_base_zh__cw",
+ "backend": "cw",
+ "bootstrap_population": 1362,
+ "backend_fit": [
+  {
+   "seed": 0,
+   "n_dev_vectors": 6370,
+   "dim": 512,
+   "ridge": 1.4629393868795475e-06
+  },
+  {
+   "seed": 1,
+   "n_dev_vectors": 6370,
+   "dim": 512,
+   "ridge": 1.4569097855578157e-06
+  },
+  {
+   "seed": 2,
+   "n_dev_vectors": 6370,
+   "dim": 512,
+   "ridge": 1.466643836597366e-06
+  },
+  {
+   "seed": 3,
+   "n_dev_vectors": 6370,
+   "dim": 512,
+   "ridge": 1.4743609517585099e-06
+  },
+  {
+   "seed": 4,
+   "n_dev_vectors": 6370,
+   "dim": 512,
+   "ridge": 1.4703126781292214e-06
+  }
+ ]
+}

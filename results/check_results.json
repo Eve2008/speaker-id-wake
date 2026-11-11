@@ -1,0 +1,385 @@
+{
+ "campplus_zhen_adv": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 80973,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998794506054,
+   1.000000114644403
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json",
+   "fixed_word.csv",
+   "fixed_word_eer.csv",
+   "ablations.csv",
+   "ablations_eer.csv"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T19:37:45+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "eres2net_base_zh": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.999999876450376,
+   1.000000121179365
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T20:48:50+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "titanet_small": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998799834312,
+   1.000000120203431
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T19:30:21+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "wespeaker_campplus_vox": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998887713925,
+   1.0000001165587702
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T19:24:43+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "wespeaker_resnet34_vox": {
+  "emb_main_done": 32300,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998871746134,
+   1.0000001208718408
+  ],
+  "files_present": [],
+  "missing_core_files": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "eval_done_marker": null,
+  "written_after_current_evaluate_py": false
+ },
+ "wespeaker_resnet34_cnc": {
+  "emb_main_done": 800,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998873967061,
+   1.0000000844041526
+  ],
+  "files_present": [],
+  "missing_core_files": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "eval_done_marker": null,
+  "written_after_current_evaluate_py": false
+ },
+ "wespeaker_campplus_vox_cmn": {
+  "files_present": [],
+  "missing_core_files": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "eval_done_marker": null,
+  "written_after_current_evaluate_py": false
+ },
+ "wespeaker_resnet34_vox_cmn": {
+  "files_present": [],
+  "missing_core_files": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "eval_done_marker": null,
+  "written_after_current_evaluate_py": false
+ },
+ "wespeaker_resnet34_cnc_cmn": {
+  "files_present": [],
+  "missing_core_files": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "eval_done_marker": null,
+  "written_after_current_evaluate_py": false
+ },
+ "wespeaker_campplus_vox_wsfe": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998890815023,
+   1.0000001183250629
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T22:07:14+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "wespeaker_resnet34_vox_wsfe": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998757933289,
+   1.0000001241427892
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T21:48:38+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "campplus_zhen_adv_d1": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998741130915,
+   1.0000001337537994
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T22:02:05+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "campplus_zhen_adv_ort131": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998736002478,
+   1.000000125224803
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T22:49:01+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ },
+ "wespeaker_resnet34_cnc_wsfe": {
+  "emb_main_done": 83924,
+  "emb_main_total": 83924,
+  "emb_ablation_done": 0,
+  "emb_mixed_nan_rows": 0,
+  "emb_norm_min_max": [
+   0.9999998790963117,
+   1.0000001273803822
+  ],
+  "files_present": [
+   "main.csv",
+   "eer.csv",
+   "gender.csv",
+   "gender_eer.csv",
+   "curves.csv",
+   "tuned_thresholds.csv",
+   "per_speaker_main.csv.gz",
+   "counts.json"
+  ],
+  "missing_core_files": [],
+  "eval_done_marker": "2026-11-10T22:46:15+01:00",
+  "written_after_current_evaluate_py": true,
+  "main_rows": 1377,
+  "main_nan_est": 0,
+  "main_seed_cols_complete": true,
+  "main_n_spk_range": [
+   1362,
+   1362
+  ],
+  "eer_rows": 9,
+  "eer_nan": 0
+ }
+}

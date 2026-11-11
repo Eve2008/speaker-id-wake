@@ -1,0 +1,29 @@
+100 eval speakers of seed 0, 600 test clips of 1 s, cosine scoring.
+
+| model | configuration | EER cosine 1 s % | closed-set acc. N=5 1 s % | source |
+|---|---|---|---|---|
+| wespeaker_campplus_vox | sherpa-onnx as shipped | 49.5 | 20.9 | wespeaker_campplus_vox.json |
+| wespeaker_campplus_vox | sherpa-onnx + 1-LSB noise floor | 50.0 | 21.4 | wespeaker_campplus_vox.json |
+| wespeaker_campplus_vox | sherpa-onnx + CMN metadata | 49.2 | 23.7 | wespeaker_campplus_vox_cmn.json |
+| wespeaker_campplus_vox | sherpa-onnx + CMN metadata + 1-LSB noise floor | 50.3 | 21.2 | wespeaker_campplus_vox_cmn.json |
+| wespeaker_campplus_vox | WeSpeaker front end, onnxruntime 1.31.1, no noise floor | 40.3 | 56.1 | wespeaker_campplus_vox.json |
+| wespeaker_campplus_vox | WeSpeaker front end, onnxruntime 1.31.1, no CMN | 26.6 | 74.5 | wespeaker_campplus_vox.json |
+| wespeaker_campplus_vox | WeSpeaker front end, onnxruntime 1.31.1 (noise floor + CMN) | 10.0 | 92.6 | wespeaker_campplus_vox.json |
+| wespeaker_resnet34_vox | sherpa-onnx as shipped | 35.3 | 68.6 | wespeaker_resnet34_vox.json |
+| wespeaker_resnet34_vox | sherpa-onnx + 1-LSB noise floor | 26.8 | 73.2 | wespeaker_resnet34_vox.json |
+| wespeaker_resnet34_vox | sherpa-onnx + CMN metadata | 41.0 | 55.3 | wespeaker_resnet34_vox_cmn.json |
+| wespeaker_resnet34_vox | sherpa-onnx + CMN metadata + 1-LSB noise floor | 8.3 | 93.8 | wespeaker_resnet34_vox_cmn.json |
+| wespeaker_resnet34_vox | WeSpeaker front end, onnxruntime 1.31.1, no noise floor | 41.3 | 54.8 | wespeaker_resnet34_vox.json |
+| wespeaker_resnet34_vox | WeSpeaker front end, onnxruntime 1.31.1, no CMN | 27.1 | 74.4 | wespeaker_resnet34_vox.json |
+| wespeaker_resnet34_vox | WeSpeaker front end, onnxruntime 1.31.1 (noise floor + CMN) | 8.0 | 93.7 | wespeaker_resnet34_vox.json |
+| wespeaker_resnet34_cnc | sherpa-onnx as shipped | 16.4 | 89.6 | wespeaker_resnet34_cnc.json |
+| wespeaker_resnet34_cnc | sherpa-onnx + 1-LSB noise floor | 10.7 | 94.3 | wespeaker_resnet34_cnc.json |
+| campplus_zhen_adv | sherpa-onnx as shipped | 8.0 | 94.7 | campplus_zhen_adv.json |
+| campplus_zhen_adv | sherpa-onnx + 1-LSB noise floor | 7.5 | 95.4 | campplus_zhen_adv.json |
+| eres2net_base_zh | sherpa-onnx as shipped | 6.5 | 96.8 | eres2net_base_zh.json |
+| eres2net_base_zh | sherpa-onnx + 1-LSB noise floor | 5.7 | 97.5 | eres2net_base_zh.json |
+| titanet_small | sherpa-onnx as shipped | 11.7 | 91.1 | titanet_small.json |
+| titanet_small | sherpa-onnx + 1-LSB noise floor | 11.7 | 91.1 | titanet_small.json |
+| campplus_zhen_adv | sherpa-onnx 2.0.1 (onnxruntime 1.28.2), own front end | 8.0 | 94.7 | runtime_effect_subset |
+| campplus_zhen_adv | onnxruntime-node 1.27.0, numpy front end | 7.8 | 94.7 | runtime_effect_subset |
+| campplus_zhen_adv | onnxruntime 1.31.1, numpy front end | 7.1 | 96.3 | runtime_effect_subset |

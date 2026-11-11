@@ -1,0 +1,1649 @@
+{
+ "wespeaker_campplus_vox": {
+  "opset": {
+   "ai.onnx": 14
+  },
+  "ops": {
+   "Add": 57,
+   "AveragePool": 52,
+   "BatchNormalization": 56,
+   "Cast": 1,
+   "Concat": 158,
+   "Constant": 795,
+   "ConstantOfShape": 52,
+   "Conv": 225,
+   "Div": 1,
+   "Equal": 52,
+   "Expand": 52,
+   "Flatten": 2,
+   "Gather": 213,
+   "Identity": 204,
+   "Mul": 107,
+   "Pad": 52,
+   "ReduceMean": 55,
+   "ReduceProd": 1,
+   "Relu": 171,
+   "Reshape": 105,
+   "Shape": 265,
+   "Sigmoid": 52,
+   "Slice": 52,
+   "Sqrt": 1,
+   "Squeeze": 1,
+   "Sub": 3,
+   "Transpose": 1,
+   "Unsqueeze": 369,
+   "Where": 52
+  },
+  "pool_nodes": [
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   }
+  ]
+ },
+ "wespeaker_resnet34_vox": {
+  "opset": {
+   "ai.onnx": 14
+  },
+  "ops": {
+   "Add": 17,
+   "Cast": 1,
+   "Concat": 1,
+   "Constant": 4,
+   "Conv": 36,
+   "Div": 1,
+   "Flatten": 2,
+   "Gather": 1,
+   "Gemm": 1,
+   "Mul": 2,
+   "ReduceMean": 3,
+   "ReduceProd": 1,
+   "Relu": 33,
+   "Shape": 1,
+   "Sqrt": 1,
+   "Sub": 3,
+   "Transpose": 1,
+   "Unsqueeze": 1
+  },
+  "pool_nodes": []
+ },
+ "wespeaker_resnet34_cnc": {
+  "opset": {
+   "ai.onnx": 14
+  },
+  "ops": {
+   "Add": 17,
+   "Cast": 1,
+   "Concat": 1,
+   "Constant": 4,
+   "Conv": 36,
+   "Div": 1,
+   "Flatten": 2,
+   "Gather": 1,
+   "Gemm": 1,
+   "Mul": 2,
+   "ReduceMean": 3,
+   "ReduceProd": 1,
+   "Relu": 33,
+   "Shape": 1,
+   "Sqrt": 1,
+   "Sub": 3,
+   "Transpose": 1,
+   "Unsqueeze": 1
+  },
+  "pool_nodes": []
+ },
+ "campplus_zhen_adv": {
+  "opset": {
+   "ai.onnx": 13
+  },
+  "ops": {
+   "Add": 56,
+   "AveragePool": 52,
+   "BatchNormalization": 56,
+   "Cast": 1,
+   "Concat": 158,
+   "Constant": 950,
+   "ConstantOfShape": 52,
+   "Conv": 225,
+   "Div": 1,
+   "Equal": 52,
+   "Expand": 52,
+   "Gather": 213,
+   "Mul": 107,
+   "ReduceMean": 55,
+   "ReduceProd": 1,
+   "Relu": 171,
+   "Reshape": 105,
+   "Shape": 265,
+   "Sigmoid": 52,
+   "Slice": 52,
+   "Sqrt": 1,
+   "Squeeze": 1,
+   "Sub": 2,
+   "Transpose": 1,
+   "Unsqueeze": 369,
+   "Where": 52
+  },
+  "pool_nodes": [
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   },
+   {
+    "op": "AveragePool",
+    "ceil_mode": 1,
+    "count_include_pad": 1,
+    "kernel_shape": [
+     100
+    ],
+    "pads": [
+     0,
+     0
+    ],
+    "strides": [
+     100
+    ]
+   }
+  ]
+ },
+ "ops_in_wespeaker_campplus_not_in_resnet34": [
+  "AveragePool",
+  "BatchNormalization",
+  "ConstantOfShape",
+  "Equal",
+  "Expand",
+  "Identity",
+  "Pad",
+  "Reshape",
+  "Sigmoid",
+  "Slice",
+  "Squeeze",
+  "Where"
+ ]
+}

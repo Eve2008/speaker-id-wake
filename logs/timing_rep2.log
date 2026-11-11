@@ -1,0 +1,60 @@
+            model                           utterance  wall_ms_median  cpu_ms_median
+campplus_zhen_adv                        1 s (1 clip)       21.169339      21.174226
+campplus_zhen_adv                       2 s (2 clips)       37.565772      37.571428
+campplus_zhen_adv                       3 s (3 clips)       54.808679      54.762807
+campplus_zhen_adv 4.3 s enrollment sentence (4 clips)       77.177087      77.051536
+campplus_zhen_adv 8.7 s enrollment sentence (8 clips)      161.284205     161.192175
+           model                           utterance  wall_ms_median  cpu_ms_median
+eres2net_base_zh                        1 s (1 clip)       51.122196      51.127125
+eres2net_base_zh                       2 s (2 clips)      103.427866     103.390338
+eres2net_base_zh                       3 s (3 clips)      161.216488     160.945906
+eres2net_base_zh 4.3 s enrollment sentence (4 clips)      233.425993     233.376887
+eres2net_base_zh 8.7 s enrollment sentence (8 clips)      498.653539     498.129318
+        model                           utterance  wall_ms_median  cpu_ms_median
+titanet_small                        1 s (1 clip)       16.509351      16.514712
+titanet_small                       2 s (2 clips)       31.060817      30.809610
+titanet_small                       3 s (3 clips)       45.822254      45.730986
+titanet_small 4.3 s enrollment sentence (4 clips)       63.069718      63.049119
+titanet_small 8.7 s enrollment sentence (8 clips)      134.539262     134.523142
+                 model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_campplus_vox                        1 s (1 clip)       23.211451      23.199239
+wespeaker_campplus_vox                       2 s (2 clips)       38.820864      38.808526
+wespeaker_campplus_vox                       3 s (3 clips)       56.625801      56.524693
+wespeaker_campplus_vox 4.3 s enrollment sentence (4 clips)       76.614477      76.599549
+wespeaker_campplus_vox 8.7 s enrollment sentence (8 clips)      155.054210     154.949313
+                 model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_resnet34_vox                        1 s (1 clip)       51.833592      51.838900
+wespeaker_resnet34_vox                       2 s (2 clips)      104.505524     103.502731
+wespeaker_resnet34_vox                       3 s (3 clips)      153.242382     153.133434
+wespeaker_resnet34_vox 4.3 s enrollment sentence (4 clips)      217.672564     217.264443
+wespeaker_resnet34_vox 8.7 s enrollment sentence (8 clips)      443.273551     443.140934
+                 model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_resnet34_cnc                        1 s (1 clip)       50.368515      50.239135
+wespeaker_resnet34_cnc                       2 s (2 clips)      100.107301     100.024323
+wespeaker_resnet34_cnc                       3 s (3 clips)      148.843391     148.789391
+wespeaker_resnet34_cnc 4.3 s enrollment sentence (4 clips)      215.635685     215.528603
+wespeaker_resnet34_cnc 8.7 s enrollment sentence (8 clips)      438.890586     438.618230
+                      model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_campplus_vox_wsfe                        1 s (1 clip)       24.860663      24.831358
+wespeaker_campplus_vox_wsfe                       2 s (2 clips)       37.353651      37.335165
+wespeaker_campplus_vox_wsfe                       3 s (3 clips)       53.875828      53.788583
+wespeaker_campplus_vox_wsfe 4.3 s enrollment sentence (4 clips)       76.763949      76.706026
+wespeaker_campplus_vox_wsfe 8.7 s enrollment sentence (8 clips)      163.494497     163.420469
+                      model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_resnet34_vox_wsfe                        1 s (1 clip)       52.915501      52.920244
+wespeaker_resnet34_vox_wsfe                       2 s (2 clips)      101.808095     101.764025
+wespeaker_resnet34_vox_wsfe                       3 s (3 clips)      148.790783     148.647861
+wespeaker_resnet34_vox_wsfe 4.3 s enrollment sentence (4 clips)      214.673923     214.420497
+wespeaker_resnet34_vox_wsfe 8.7 s enrollment sentence (8 clips)      438.666430     438.040812
+                      model                           utterance  wall_ms_median  cpu_ms_median
+wespeaker_resnet34_cnc_wsfe                        1 s (1 clip)       50.956116      50.854534
+wespeaker_resnet34_cnc_wsfe                       2 s (2 clips)       99.513044      99.475125
+wespeaker_resnet34_cnc_wsfe                       3 s (3 clips)      151.064358     150.980363
+wespeaker_resnet34_cnc_wsfe 4.3 s enrollment sentence (4 clips)      214.152829     214.121871
+wespeaker_resnet34_cnc_wsfe 8.7 s enrollment sentence (8 clips)      443.281825     442.838098
+                   model                           utterance  wall_ms_median  cpu_ms_median
+campplus_zhen_adv_ort131                        1 s (1 clip)       21.530598      21.528481
+campplus_zhen_adv_ort131                       2 s (2 clips)       36.820088      36.717899
+campplus_zhen_adv_ort131                       3 s (3 clips)       53.410188      53.367828
+campplus_zhen_adv_ort131 4.3 s enrollment sentence (4 clips)       75.891584      75.864907
+campplus_zhen_adv_ort131 8.7 s enrollment sentence (8 clips)      154.532292     154.480732

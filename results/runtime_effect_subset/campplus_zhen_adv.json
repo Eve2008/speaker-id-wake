@@ -1,0 +1,25 @@
+{
+ "model": "campplus_zhen_adv",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "features": {
+  "scale": "float",
+  "cmn": true
+ },
+ "onnxruntime_1.31.1_python": {
+  "eer_cos_1s": 0.07103729603729605,
+  "mindcf_1s": 0.576666666666662,
+  "closed_set_acc_N5_1s": 0.9634666666666666
+ },
+ "onnxruntime_node_1.27.0": {
+  "eer_cos_1s": 0.07807511737089205,
+  "mindcf_1s": 0.6349999999999952,
+  "closed_set_acc_N5_1s": 0.9467333333333333
+ },
+ "sherpa_onnx_2.0.1": {
+  "eer_cos_1s": 0.0800151515151515,
+  "mindcf_1s": 0.6316666666666684,
+  "closed_set_acc_N5_1s": 0.9472666666666667
+ }
+}

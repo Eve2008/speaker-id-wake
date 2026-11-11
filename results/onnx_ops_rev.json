@@ -1,0 +1,190 @@
+{
+ "eres2net_base_zh": {
+  "opset": {
+   "ai.onnx": 13
+  },
+  "n_pool_nodes": 0,
+  "pool_types": [],
+  "averagepool_count_include_pad": [],
+  "ops": {
+   "Add": 48,
+   "Cast": 1,
+   "Clip": 64,
+   "Concat": 29,
+   "Constant": 172,
+   "Conv": 96,
+   "Div": 1,
+   "Flatten": 2,
+   "Gather": 1,
+   "Gemm": 1,
+   "Mul": 38,
+   "ReduceMean": 3,
+   "ReduceProd": 1,
+   "Relu": 1,
+   "Shape": 1,
+   "Sigmoid": 12,
+   "Split": 16,
+   "Sqrt": 1,
+   "Sub": 14,
+   "Tanh": 12,
+   "Transpose": 1,
+   "Unsqueeze": 1
+  }
+ },
+ "titanet_small": {
+  "opset": {
+   "ai.onnx": 17
+  },
+  "n_pool_nodes": 0,
+  "pool_types": [],
+  "averagepool_count_include_pad": [],
+  "ops": {
+   "Abs": 1,
+   "Add": 3,
+   "BatchNormalization": 2,
+   "Cast": 32,
+   "Clip": 3,
+   "Concat": 11,
+   "Constant": 97,
+   "ConstantOfShape": 7,
+   "Conv": 28,
+   "Div": 7,
+   "Equal": 6,
+   "Expand": 8,
+   "Gather": 7,
+   "Less": 6,
+   "MatMul": 11,
+   "Mul": 14,
+   "Not": 10,
+   "Pow": 4,
+   "Range": 1,
+   "ReduceSum": 16,
+   "Relu": 17,
+   "Reshape": 5,
+   "Shape": 15,
+   "Sigmoid": 5,
+   "Slice": 6,
+   "Softmax": 1,
+   "Sqrt": 2,
+   "Squeeze": 1,
+   "Sub": 2,
+   "Tanh": 1,
+   "Tile": 2,
+   "Transpose": 10,
+   "Unsqueeze": 28,
+   "Where": 11
+  }
+ },
+ "campplus_vox_cip0_d1": {
+  "opset": {
+   "ai.onnx": 13
+  },
+  "n_pool_nodes": 52,
+  "pool_types": [
+   "AveragePool"
+  ],
+  "averagepool_count_include_pad": [
+   0
+  ],
+  "ops": {
+   "Add": 56,
+   "AveragePool": 52,
+   "BatchNormalization": 56,
+   "Cast": 1,
+   "Concat": 158,
+   "Constant": 950,
+   "ConstantOfShape": 52,
+   "Conv": 225,
+   "Div": 1,
+   "Equal": 52,
+   "Expand": 52,
+   "Gather": 213,
+   "Mul": 107,
+   "ReduceMean": 55,
+   "ReduceProd": 1,
+   "Relu": 171,
+   "Reshape": 105,
+   "Shape": 265,
+   "Sigmoid": 52,
+   "Slice": 52,
+   "Sqrt": 1,
+   "Squeeze": 1,
+   "Sub": 2,
+   "Transpose": 1,
+   "Unsqueeze": 369,
+   "Where": 52
+  }
+ },
+ "eres2net_vox_d1": {
+  "opset": {
+   "ai.onnx": 13
+  },
+  "n_pool_nodes": 0,
+  "pool_types": [],
+  "averagepool_count_include_pad": [],
+  "ops": {
+   "Add": 48,
+   "Cast": 1,
+   "Clip": 64,
+   "Concat": 29,
+   "Constant": 172,
+   "Conv": 96,
+   "Div": 1,
+   "Flatten": 2,
+   "Gather": 1,
+   "Gemm": 1,
+   "Mul": 38,
+   "ReduceMean": 3,
+   "ReduceProd": 1,
+   "Relu": 1,
+   "Shape": 1,
+   "Sigmoid": 12,
+   "Split": 16,
+   "Sqrt": 1,
+   "Sub": 14,
+   "Tanh": 12,
+   "Transpose": 1,
+   "Unsqueeze": 1
+  }
+ },
+ "campplus_zhen_adv_cip0": {
+  "opset": {
+   "ai.onnx": 13
+  },
+  "n_pool_nodes": 52,
+  "pool_types": [
+   "AveragePool"
+  ],
+  "averagepool_count_include_pad": [
+   0
+  ],
+  "ops": {
+   "Add": 56,
+   "AveragePool": 52,
+   "BatchNormalization": 56,
+   "Cast": 1,
+   "Concat": 158,
+   "Constant": 950,
+   "ConstantOfShape": 52,
+   "Conv": 225,
+   "Div": 1,
+   "Equal": 52,
+   "Expand": 52,
+   "Gather": 213,
+   "Mul": 107,
+   "ReduceMean": 55,
+   "ReduceProd": 1,
+   "Relu": 171,
+   "Reshape": 105,
+   "Shape": 265,
+   "Sigmoid": 52,
+   "Slice": 52,
+   "Sqrt": 1,
+   "Squeeze": 1,
+   "Sub": 2,
+   "Transpose": 1,
+   "Unsqueeze": 369,
+   "Where": 52
+  }
+ }
+}

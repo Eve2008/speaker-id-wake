@@ -1,0 +1,38 @@
+| quantity | value |
+|---|---|
+| MSWC Persian test split: clips | 120232 |
+| MSWC Persian test split: speakers | 3197 |
+| speaker pool (>= 18 clips, splittable under all seeds) | 1366 |
+| pool: male / female / other / missing gender label | 562 / 144 / 4 / 656 |
+| pool: clips per speaker, median [IQR] | 39 [25, 79] |
+| pool: source recordings per speaker, median [IQR] | 18 [12, 41] |
+| pool: clips per speaker, min / max | 18 / 2302 |
+| seeds | 5 |
+| dev speakers per seed | 455 |
+| eval speakers per seed | 911 |
+| speakers that are eval in >= 1 seed (bootstrap units) | 1362 |
+| eval speakers with >= 40 enrollment clips (enrollment ablation), per seed | 578 / 582 / 582 / 579 / 582 |
+| enrollment: sentences x clips (main), gap between clips (s) | 3 x 4, 0.1 |
+| test utterances per speaker and seed: 1 s / 2 s / 3 s | 6 / 3 / 2 |
+| households per test utterance (member and stranger, each) | 100 |
+| household sizes N | 2, 3, 5, 10, 20 |
+| distinct words among test clips | 2929 |
+| embedded utterances per configuration: main / ablation | 83924 / 80973 |
+| EER trials pooled over seeds, 1 s: target / non-target | 27,330 / 24,870,300 |
+| EER trials pooled over seeds, 2 s: target / non-target | 13,665 / 12,435,150 |
+| EER trials pooled over seeds, 3 s: target / non-target | 9,110 / 8,290,100 |
+| test clips analysed for padding (seed 0) | 8196 |
+| share of samples exactly 0 per clip, median [IQR] | 0.615 [0.505, 0.704] |
+| clips with a run of exact zeros >= 0.1 s | 0.984 |
+| longest zero run per clip, median (s) | 0.314 |
+| 25 ms frames entirely zero, median share per clip | 0.582 |
+| log-mel floor of an all-zero frame (int16 scale, nats) | -15.94 |
+| gap between loudest 10% frames and the floor, median (nats) | 33.4 |
+| active speech per clip, median [IQR] (s): random_word_test_clips (n=8196) | 0.395 [0.305, 0.495] |
+| active speech per clip, median [IQR] (s): fixed_word:این (n=280) | 0.185 [0.165, 0.225] |
+| active speech per clip, median [IQR] (s): fixed_word:برای (n=218) | 0.345 [0.295, 0.395] |
+| active speech per clip, median [IQR] (s): fixed_word:باید (n=166) | 0.310 [0.275, 0.375] |
+| active speech per clip, median [IQR] (s): fixed_word:خیلی (n=166) | 0.395 [0.345, 0.455] |
+| active speech per clip, median [IQR] (s): fixed_word:اینجا (n=147) | 0.325 [0.275, 0.385] |
+| 1 s test clips failing NexaRoom's audio check (RMS < 80 etc.), per seed min-max | 0.0082-0.0124 |
+| enrollment sentences failing NexaRoom's audio check, per seed min-max | 0.0017-0.0034 |

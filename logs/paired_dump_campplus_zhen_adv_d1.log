@@ -1,0 +1,6 @@
+[campplus_zhen_adv_d1] seed 0 done, 0.1 min
+[campplus_zhen_adv_d1] seed 1 done, 0.2 min
+[campplus_zhen_adv_d1] seed 2 done, 0.3 min
+[campplus_zhen_adv_d1] seed 3 done, 0.4 min
+[campplus_zhen_adv_d1] seed 4 done, 0.5 min
+{"model": "campplus_zhen_adv_d1", "n_metric_keys_checked": 84, "max_abs_diff_vs_main_csv": 2.100668961002583e-08, "max_abs_diff_eer_vs_eer_csv": 0.0, "minutes": 0.6000614086786906}

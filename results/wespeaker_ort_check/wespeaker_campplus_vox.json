@@ -1,0 +1,30 @@
+{
+ "model": "wespeaker_campplus_vox",
+ "onnxruntime": "1.31.1",
+ "n_speakers": 100,
+ "n_test": 600,
+ "wespeaker_frontend": {
+  "dither_lsb": 1.0,
+  "cmn": true,
+  "eer_cos_1s": 0.09984633569739951,
+  "mindcf_1s": 0.7916666666666622,
+  "closed_set_acc_N5_1s": 0.9258000000000001,
+  "norm_of_mean_test_embedding": 0.3543674284551358
+ },
+ "no_dither": {
+  "dither_lsb": 0.0,
+  "cmn": true,
+  "eer_cos_1s": 0.4033333333333333,
+  "mindcf_1s": 1.0,
+  "closed_set_acc_N5_1s": 0.5613333333333332,
+  "norm_of_mean_test_embedding": 0.6896846906181049
+ },
+ "no_cmn": {
+  "dither_lsb": 1.0,
+  "cmn": false,
+  "eer_cos_1s": 0.2664344262295082,
+  "mindcf_1s": 0.9966666666666667,
+  "closed_set_acc_N5_1s": 0.7450333333333333,
+  "norm_of_mean_test_embedding": 0.5951709619794472
+ }
+}

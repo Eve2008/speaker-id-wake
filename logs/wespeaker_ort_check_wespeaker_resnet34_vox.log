@@ -1,0 +1,3 @@
+wespeaker_resnet34_vox wespeaker_frontend {'dither_lsb': 1.0, 'cmn': True, 'eer_cos_1s': 0.0803954802259887, 'mindcf_1s': 0.7033333333333289, 'closed_set_acc_N5_1s': 0.9371333333333333, 'norm_of_mean_test_embedding': 0.3965068139337048}
+wespeaker_resnet34_vox no_dither {'dither_lsb': 0.0, 'cmn': True, 'eer_cos_1s': 0.4132456140350877, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.5476, 'norm_of_mean_test_embedding': 0.8186654592579605}
+wespeaker_resnet34_vox no_cmn {'dither_lsb': 1.0, 'cmn': False, 'eer_cos_1s': 0.2709326424870467, 'mindcf_1s': 0.9933333333333343, 'closed_set_acc_N5_1s': 0.7444999999999999, 'norm_of_mean_test_embedding': 0.716621688218782}

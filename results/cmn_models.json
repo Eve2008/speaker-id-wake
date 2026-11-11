@@ -1,0 +1,56 @@
+{
+ "wespeaker_campplus_vox_cmn": {
+  "source": "wespeaker_en_voxceleb_CAM++.onnx",
+  "source_sha256": "c46fad10b5f81e1aa4a60c162714208577093655076c5450f8c469e522ec54ef",
+  "output": "cmn/wespeaker_en_voxceleb_CAM++_cmn.onnx",
+  "output_sha256": "ef1cba2d16207f52458ff6c3ee80c86338cdbc0841923085657b5f8b7d1fca16",
+  "metadata": {
+   "normalize_samples": "0",
+   "output_dim": "512",
+   "comment": "no comment",
+   "url": "https://wespeaker-1256283475.cos.ap-shanghai.myqcloud.com/models/voxceleb/voxceleb_CAM++.onnx",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "English",
+   "framework": "wespeaker"
+  },
+  "same_output_as_source_on_random_features": true,
+  "graph_is_offset_invariant_cos": 0.6338202953338623
+ },
+ "wespeaker_resnet34_vox_cmn": {
+  "source": "wespeaker_en_voxceleb_resnet34.onnx",
+  "source_sha256": "5ef208a9da1453335308a6b6f4e6dfbd7e183a38b604de0a57664f45d257fe94",
+  "output": "cmn/wespeaker_en_voxceleb_resnet34_cmn.onnx",
+  "output_sha256": "6928c40c3b5c695352998c261cb6f2250c4e52a991e324c0f63c2e10fe7c31f8",
+  "metadata": {
+   "normalize_samples": "0",
+   "output_dim": "256",
+   "comment": "no comment",
+   "url": "https://wespeaker-1256283475.cos.ap-shanghai.myqcloud.com/models/voxceleb/voxceleb_resnet34.onnx",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "English",
+   "framework": "wespeaker"
+  },
+  "same_output_as_source_on_random_features": true,
+  "graph_is_offset_invariant_cos": 0.7937625050544739
+ },
+ "wespeaker_resnet34_cnc_cmn": {
+  "source": "wespeaker_zh_cnceleb_resnet34.onnx",
+  "source_sha256": "f86cd6c509f331f0e20b07bd48d1b2eb7de54202643401c4e84695ac861a0e5a",
+  "output": "cmn/wespeaker_zh_cnceleb_resnet34_cmn.onnx",
+  "output_sha256": "1a1de78b9c4a5c2d1c652a39edcb664381dc1a7d9ac86eb93dd1a83c8b24a4b4",
+  "metadata": {
+   "normalize_samples": "0",
+   "output_dim": "256",
+   "comment": "no comment",
+   "url": "https://wespeaker-1256283475.cos.ap-shanghai.myqcloud.com/models/cnceleb/cnceleb_resnet34.onnx",
+   "feature_normalize_type": "global-mean",
+   "sample_rate": "16000",
+   "language": "Chinese",
+   "framework": "wespeaker"
+  },
+  "same_output_as_source_on_random_features": true,
+  "graph_is_offset_invariant_cos": 0.8595351576805115
+ }
+}

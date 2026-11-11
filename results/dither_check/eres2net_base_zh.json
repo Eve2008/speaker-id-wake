@@ -1,0 +1,18 @@
+{
+ "model": "eres2net_base_zh",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "raw": {
+  "eer_cos_1s": 0.06458015267175572,
+  "mindcf_1s": 0.4849999999999966,
+  "closed_set_acc_N5_1s": 0.968,
+  "norm_of_mean_test_embedding": 0.4464509948522312
+ },
+ "dither_1lsb": {
+  "eer_cos_1s": 0.05668010752688171,
+  "mindcf_1s": 0.4550000000000054,
+  "closed_set_acc_N5_1s": 0.9748,
+  "norm_of_mean_test_embedding": 0.43343058008787305
+ }
+}

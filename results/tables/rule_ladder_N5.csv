@@ -1,0 +1,136 @@
+model,test,step,member correct %,wrong member %,stranger accepted %
+3D-Speaker CAM++ (NexaRoom default),1 s,a: cosine to centroid >= 0.50,64.29,0.573,2.33
+3D-Speaker CAM++ (NexaRoom default),1 s,b: blend score >= 0.50,55.03,0.327,1.07
+3D-Speaker CAM++ (NexaRoom default),1 s,c: blend >= calibrated per-profile threshold,56.78,0.37,1.39
+3D-Speaker CAM++ (NexaRoom default),1 s,d: c + 0.05 penalty for audio < 2 s,38.14,0.097,0.28
+3D-Speaker CAM++ (NexaRoom default),1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),37.94,0.052,0.26
+3D-Speaker CAM++ (NexaRoom default),2 s,a: cosine to centroid >= 0.50,94.2,0.278,6.52
+3D-Speaker CAM++ (NexaRoom default),2 s,b: blend score >= 0.50,90.92,0.208,3.33
+3D-Speaker CAM++ (NexaRoom default),2 s,c: blend >= calibrated per-profile threshold,91.93,0.22,4.05
+3D-Speaker CAM++ (NexaRoom default),2 s,d: c + 0.05 penalty for audio < 2 s,91.92,0.22,4.05
+3D-Speaker CAM++ (NexaRoom default),2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),91.21,0.063,3.4
+3D-Speaker CAM++ (NexaRoom default),3 s,a: cosine to centroid >= 0.50,97.82,0.217,10.32
+3D-Speaker CAM++ (NexaRoom default),3 s,b: blend score >= 0.50,96.36,0.178,5.78
+3D-Speaker CAM++ (NexaRoom default),3 s,c: blend >= calibrated per-profile threshold,96.93,0.185,6.74
+3D-Speaker CAM++ (NexaRoom default),3 s,d: c + 0.05 penalty for audio < 2 s,96.93,0.185,6.74
+3D-Speaker CAM++ (NexaRoom default),3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),96.33,0.051,5.61
+3D-Speaker ERes2Net-base,1 s,a: cosine to centroid >= 0.50,88.13,0.969,13.18
+3D-Speaker ERes2Net-base,1 s,b: blend score >= 0.50,84.73,0.782,9.12
+3D-Speaker ERes2Net-base,1 s,c: blend >= calibrated per-profile threshold,84.87,0.786,9.21
+3D-Speaker ERes2Net-base,1 s,d: c + 0.05 penalty for audio < 2 s,74.69,0.361,2.86
+3D-Speaker ERes2Net-base,1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),73.84,0.131,2.45
+3D-Speaker ERes2Net-base,2 s,a: cosine to centroid >= 0.50,97.95,0.398,25.45
+3D-Speaker ERes2Net-base,2 s,b: blend score >= 0.50,97.4,0.369,18.87
+3D-Speaker ERes2Net-base,2 s,c: blend >= calibrated per-profile threshold,97.48,0.37,19.03
+3D-Speaker ERes2Net-base,2 s,d: c + 0.05 penalty for audio < 2 s,97.47,0.37,19.02
+3D-Speaker ERes2Net-base,2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),96.56,0.112,14.01
+3D-Speaker ERes2Net-base,3 s,a: cosine to centroid >= 0.50,99.1,0.225,33.37
+3D-Speaker ERes2Net-base,3 s,b: blend score >= 0.50,98.98,0.225,25.79
+3D-Speaker ERes2Net-base,3 s,c: blend >= calibrated per-profile threshold,99.02,0.226,25.98
+3D-Speaker ERes2Net-base,3 s,d: c + 0.05 penalty for audio < 2 s,99.02,0.226,25.98
+3D-Speaker ERes2Net-base,3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),98.54,0.071,18.55
+NeMo TitaNet-small,1 s,a: cosine to centroid >= 0.50,42.43,0.415,1.15
+NeMo TitaNet-small,1 s,b: blend score >= 0.50,32.18,0.221,0.52
+NeMo TitaNet-small,1 s,c: blend >= calibrated per-profile threshold,35.51,0.309,0.91
+NeMo TitaNet-small,1 s,d: c + 0.05 penalty for audio < 2 s,19.25,0.093,0.23
+NeMo TitaNet-small,1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),19.14,0.06,0.21
+NeMo TitaNet-small,2 s,a: cosine to centroid >= 0.50,85.89,0.377,3.88
+NeMo TitaNet-small,2 s,b: blend score >= 0.50,78.65,0.253,1.97
+NeMo TitaNet-small,2 s,c: blend >= calibrated per-profile threshold,82.19,0.297,2.91
+NeMo TitaNet-small,2 s,d: c + 0.05 penalty for audio < 2 s,82.17,0.297,2.91
+NeMo TitaNet-small,2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),81.45,0.12,2.5
+NeMo TitaNet-small,3 s,a: cosine to centroid >= 0.50,95.33,0.215,6.12
+NeMo TitaNet-small,3 s,b: blend score >= 0.50,92.1,0.172,3.28
+NeMo TitaNet-small,3 s,c: blend >= calibrated per-profile threshold,94.26,0.191,4.55
+NeMo TitaNet-small,3 s,d: c + 0.05 penalty for audio < 2 s,94.26,0.191,4.55
+NeMo TitaNet-small,3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),93.71,0.077,3.88
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),1 s,a: cosine to centroid >= 0.50,45.24,0.684,1.72
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),1 s,b: blend score >= 0.50,34.03,0.339,0.72
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),1 s,c: blend >= calibrated per-profile threshold,38.26,0.547,1.54
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),1 s,d: c + 0.05 penalty for audio < 2 s,21.65,0.187,0.42
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),21.46,0.118,0.37
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),2 s,a: cosine to centroid >= 0.50,85.54,0.737,5.74
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),2 s,b: blend score >= 0.50,77.82,0.485,2.72
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),2 s,c: blend >= calibrated per-profile threshold,81.76,0.604,4.56
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),2 s,d: c + 0.05 penalty for audio < 2 s,81.75,0.604,4.56
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),80.47,0.238,3.74
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),3 s,a: cosine to centroid >= 0.50,95.54,0.495,10.06
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),3 s,b: blend score >= 0.50,92.1,0.391,5.14
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),3 s,c: blend >= calibrated per-profile threshold,94.34,0.442,7.77
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),3 s,d: c + 0.05 penalty for audio < 2 s,94.34,0.442,7.77
+WeSpeaker CAM++ VoxCeleb (WeSpeaker front end),3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),93.16,0.149,6.25
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),1 s,a: cosine to centroid >= 0.50,60.72,1.178,3.38
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),1 s,b: blend score >= 0.50,49.16,0.708,1.67
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),1 s,c: blend >= calibrated per-profile threshold,51.51,0.802,2.09
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),1 s,d: c + 0.05 penalty for audio < 2 s,31.91,0.301,0.61
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),31.66,0.201,0.55
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),2 s,a: cosine to centroid >= 0.50,92.24,0.727,7.82
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),2 s,b: blend score >= 0.50,86.88,0.533,4.04
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),2 s,c: blend >= calibrated per-profile threshold,88.63,0.566,4.86
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),2 s,d: c + 0.05 penalty for audio < 2 s,88.61,0.565,4.86
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),87.42,0.193,4.05
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),3 s,a: cosine to centroid >= 0.50,97.65,0.362,11.68
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),3 s,b: blend score >= 0.50,96.0,0.3,6.35
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),3 s,c: blend >= calibrated per-profile threshold,96.69,0.312,7.47
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),3 s,d: c + 0.05 penalty for audio < 2 s,96.69,0.312,7.47
+WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end),3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),95.79,0.085,6.14
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),1 s,a: cosine to centroid >= 0.50,84.93,1.685,15.82
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),1 s,b: blend score >= 0.50,80.4,1.359,10.73
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),1 s,c: blend >= calibrated per-profile threshold,80.66,1.37,10.91
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),1 s,d: c + 0.05 penalty for audio < 2 s,67.31,0.665,3.73
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),65.9,0.234,3.09
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),2 s,a: cosine to centroid >= 0.50,97.24,0.701,29.99
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),2 s,b: blend score >= 0.50,96.48,0.669,22.37
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),2 s,c: blend >= calibrated per-profile threshold,96.61,0.672,22.64
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),2 s,d: c + 0.05 penalty for audio < 2 s,96.6,0.671,22.62
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),94.85,0.169,16.23
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),3 s,a: cosine to centroid >= 0.50,98.95,0.341,39.07
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),3 s,b: blend score >= 0.50,98.67,0.343,30.45
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),3 s,c: blend >= calibrated per-profile threshold,98.74,0.344,30.75
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),3 s,d: c + 0.05 penalty for audio < 2 s,98.74,0.344,30.75
+WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end),3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),97.71,0.093,21.31
+"3D-Speaker CAM++, 1-LSB noise floor",1 s,a: cosine to centroid >= 0.50,65.82,0.553,2.21
+"3D-Speaker CAM++, 1-LSB noise floor",1 s,b: blend score >= 0.50,56.67,0.31,1.03
+"3D-Speaker CAM++, 1-LSB noise floor",1 s,c: blend >= calibrated per-profile threshold,58.33,0.355,1.35
+"3D-Speaker CAM++, 1-LSB noise floor",1 s,d: c + 0.05 penalty for audio < 2 s,40.2,0.093,0.27
+"3D-Speaker CAM++, 1-LSB noise floor",1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),40.01,0.049,0.25
+"3D-Speaker CAM++, 1-LSB noise floor",2 s,a: cosine to centroid >= 0.50,93.98,0.251,5.02
+"3D-Speaker CAM++, 1-LSB noise floor",2 s,b: blend score >= 0.50,90.77,0.177,2.55
+"3D-Speaker CAM++, 1-LSB noise floor",2 s,c: blend >= calibrated per-profile threshold,91.72,0.19,3.2
+"3D-Speaker CAM++, 1-LSB noise floor",2 s,d: c + 0.05 penalty for audio < 2 s,91.7,0.189,3.2
+"3D-Speaker CAM++, 1-LSB noise floor",2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),91.13,0.058,2.74
+"3D-Speaker CAM++, 1-LSB noise floor",3 s,a: cosine to centroid >= 0.50,97.7,0.196,8.42
+"3D-Speaker CAM++, 1-LSB noise floor",3 s,b: blend score >= 0.50,96.26,0.17,4.62
+"3D-Speaker CAM++, 1-LSB noise floor",3 s,c: blend >= calibrated per-profile threshold,96.83,0.176,5.51
+"3D-Speaker CAM++, 1-LSB noise floor",3 s,d: c + 0.05 penalty for audio < 2 s,96.83,0.176,5.51
+"3D-Speaker CAM++, 1-LSB noise floor",3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),96.33,0.049,4.69
+"3D-Speaker CAM++, onnxruntime 1.31.1",1 s,a: cosine to centroid >= 0.50,69.87,0.489,2.53
+"3D-Speaker CAM++, onnxruntime 1.31.1",1 s,b: blend score >= 0.50,60.62,0.276,1.15
+"3D-Speaker CAM++, onnxruntime 1.31.1",1 s,c: blend >= calibrated per-profile threshold,62.15,0.312,1.51
+"3D-Speaker CAM++, onnxruntime 1.31.1",1 s,d: c + 0.05 penalty for audio < 2 s,42.9,0.083,0.29
+"3D-Speaker CAM++, onnxruntime 1.31.1",1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),42.68,0.041,0.27
+"3D-Speaker CAM++, onnxruntime 1.31.1",2 s,a: cosine to centroid >= 0.50,94.21,0.276,6.62
+"3D-Speaker CAM++, onnxruntime 1.31.1",2 s,b: blend score >= 0.50,90.73,0.209,3.41
+"3D-Speaker CAM++, onnxruntime 1.31.1",2 s,c: blend >= calibrated per-profile threshold,91.8,0.22,4.1
+"3D-Speaker CAM++, onnxruntime 1.31.1",2 s,d: c + 0.05 penalty for audio < 2 s,91.78,0.22,4.1
+"3D-Speaker CAM++, onnxruntime 1.31.1",2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),91.07,0.062,3.45
+"3D-Speaker CAM++, onnxruntime 1.31.1",3 s,a: cosine to centroid >= 0.50,98.38,0.142,10.82
+"3D-Speaker CAM++, onnxruntime 1.31.1",3 s,b: blend score >= 0.50,97.41,0.125,6.03
+"3D-Speaker CAM++, onnxruntime 1.31.1",3 s,c: blend >= calibrated per-profile threshold,97.86,0.131,6.99
+"3D-Speaker CAM++, onnxruntime 1.31.1",3 s,d: c + 0.05 penalty for audio < 2 s,97.86,0.131,6.99
+"3D-Speaker CAM++, onnxruntime 1.31.1",3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),97.34,0.035,5.73
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",1 s,a: cosine to centroid >= 0.50,0.01,0.014,0.02
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",1 s,b: blend score >= 0.50,0.01,0.011,0.01
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",1 s,c: blend >= calibrated per-profile threshold,0.01,0.011,0.01
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",1 s,d: c + 0.05 penalty for audio < 2 s,0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",1 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",2 s,a: cosine to centroid >= 0.50,0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",2 s,b: blend score >= 0.50,0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",2 s,c: blend >= calibrated per-profile threshold,0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",2 s,d: c + 0.05 penalty for audio < 2 s,0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",2 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),0.0,0.0,0.0
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",3 s,a: cosine to centroid >= 0.50,24.93,71.971,96.6
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",3 s,b: blend score >= 0.50,24.88,71.603,96.19
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",3 s,c: blend >= calibrated per-profile threshold,24.88,71.603,96.19
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",3 s,d: c + 0.05 penalty for audio < 2 s,24.88,71.603,96.19
+"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped",3 s,e: d + runner-up margin 0.06 (= full NexaRoom rule),0.18,0.042,0.1

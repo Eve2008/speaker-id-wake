@@ -1,0 +1,29 @@
+| model | test | speakers | median speaker acc. % | speakers with acc. < 80% (%) | speakers with acc. = 100% (%) | share of errors from worst 10% of speakers (%) |
+|---|---|---|---|---|---|---|
+| 3D-Speaker CAM++ (NexaRoom default) | 1 s | 1362 | 96.6 | 2.9 | 2.6 | 36.1 |
+| 3D-Speaker CAM++ (NexaRoom default) | 2 s | 1362 | 100.0 | 0.5 | 50.7 | 76.8 |
+| 3D-Speaker CAM++ (NexaRoom default) | 3 s | 1362 | 100.0 | 0.4 | 72.4 | 88.9 |
+| 3D-Speaker ERes2Net-base | 1 s | 1362 | 98.8 | 1.0 | 10.6 | 47.5 |
+| 3D-Speaker ERes2Net-base | 2 s | 1362 | 100.0 | 0.5 | 62.8 | 86.3 |
+| 3D-Speaker ERes2Net-base | 3 s | 1362 | 100.0 | 0.3 | 86.0 | 98.5 |
+| NeMo TitaNet-small | 1 s | 1362 | 94.2 | 6.9 | 1.3 | 31.7 |
+| NeMo TitaNet-small | 2 s | 1362 | 99.8 | 1.0 | 35.7 | 67.6 |
+| NeMo TitaNet-small | 3 s | 1362 | 100.0 | 0.4 | 69.7 | 88.9 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 1 s | 1362 | 93.3 | 6.2 | 0.7 | 29.4 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 2 s | 1362 | 99.3 | 1.5 | 24.8 | 57.1 |
+| WeSpeaker CAM++ VoxCeleb (WeSpeaker front end) | 3 s | 1362 | 100.0 | 0.9 | 54.4 | 79.0 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 1 s | 1362 | 95.0 | 3.5 | 2.1 | 31.5 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 2 s | 1362 | 99.7 | 0.9 | 32.6 | 62.9 |
+| WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end) | 3 s | 1362 | 100.0 | 0.6 | 65.3 | 85.3 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 1 s | 1362 | 97.9 | 1.6 | 5.3 | 40.6 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 2 s | 1362 | 99.9 | 0.7 | 46.5 | 74.1 |
+| WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end) | 3 s | 1362 | 100.0 | 0.5 | 75.5 | 91.4 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 1 s | 1362 | 96.8 | 3.4 | 3.5 | 37.5 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 2 s | 1362 | 100.0 | 0.4 | 52.3 | 77.7 |
+| 3D-Speaker CAM++, 1-LSB noise floor | 3 s | 1362 | 100.0 | 0.4 | 73.0 | 89.6 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 1 s | 1362 | 97.8 | 1.3 | 4.2 | 38.9 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 2 s | 1362 | 100.0 | 0.4 | 51.6 | 76.7 |
+| 3D-Speaker CAM++, onnxruntime 1.31.1 | 3 s | 1362 | 100.0 | 0.4 | 78.3 | 92.7 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 1 s | 1362 | 13.8 | 96.7 | 0.0 | 12.7 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 2 s | 1362 | 29.6 | 95.6 | 0.0 | 14.7 |
+| WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped | 3 s | 1362 | 19.3 | 96.3 | 0.0 | 13.4 |

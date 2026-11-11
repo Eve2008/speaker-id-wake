@@ -1,0 +1,16 @@
+[campplus_zhen_adv] seed 0
+[campplus_zhen_adv] seed 1
+[campplus_zhen_adv] seed 2
+[campplus_zhen_adv] seed 3
+[campplus_zhen_adv] seed 4
+/home/ali/Desktop/Articles/artifacts/speaker-id-wake/experiments/24_ablation_paired.py:108: RuntimeWarning: Mean of empty slice
+  va, vb = np.nanmean(A["acc"], 0), np.nanmean(B["acc"], 0)
+              config                                 comparison  speakers     EER_A     EER_B  EER_diff  EER_diff_lo  EER_diff_hi     acc_A     acc_B  acc_diff  acc_diff_lo  acc_diff_hi
+0  campplus_zhen_adv   trim: enroll_raw+test_trim minus raw+raw      1362  0.103476  0.084355  0.019121     0.017165     0.021255  0.927004  0.944862 -0.017858    -0.019829    -0.015784
+1  campplus_zhen_adv   trim: enroll_trim+test_raw minus raw+raw      1362  0.086831  0.084355  0.002476     0.000734     0.004168  0.941356  0.944862 -0.003506    -0.004912    -0.002098
+2  campplus_zhen_adv  trim: enroll_trim+test_trim minus raw+raw      1362  0.099457  0.084355  0.015103     0.013017     0.017314  0.928722  0.944862 -0.016140    -0.018367    -0.013764
+3  campplus_zhen_adv               word این: fixed minus random       349  0.235637  0.112725  0.122912     0.105229     0.140249  0.701913  0.912578 -0.210665    -0.236745    -0.183718
+4  campplus_zhen_adv              word برای: fixed minus random       280  0.082857  0.102150 -0.019293    -0.032326    -0.005382  0.949594  0.936863  0.012731    -0.000516     0.025509
+5  campplus_zhen_adv              word خیلی: fixed minus random       225  0.088129  0.099949 -0.011819    -0.031012     0.005617  0.944954  0.930917  0.014037    -0.004162     0.031673
+6  campplus_zhen_adv              word باید: fixed minus random       221  0.067179  0.094542 -0.027364    -0.039050    -0.006191  0.964791  0.941208  0.023584     0.008654     0.038645
+7  campplus_zhen_adv             word اینجا: fixed minus random       195  0.059341  0.093645 -0.034304    -0.050402    -0.016018  0.973688  0.938773  0.034915     0.023930     0.045633

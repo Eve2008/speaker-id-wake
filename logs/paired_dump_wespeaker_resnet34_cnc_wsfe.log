@@ -1,0 +1,6 @@
+[wespeaker_resnet34_cnc_wsfe] seed 0 done, 0.1 min
+[wespeaker_resnet34_cnc_wsfe] seed 1 done, 0.2 min
+[wespeaker_resnet34_cnc_wsfe] seed 2 done, 0.3 min
+[wespeaker_resnet34_cnc_wsfe] seed 3 done, 0.4 min
+[wespeaker_resnet34_cnc_wsfe] seed 4 done, 0.5 min
+{"model": "wespeaker_resnet34_cnc_wsfe", "n_metric_keys_checked": 84, "max_abs_diff_vs_main_csv": 3.789362046369149e-08, "max_abs_diff_eer_vs_eer_csv": 0.0, "minutes": 0.5744023799896241}

@@ -1,0 +1,244 @@
+config,dur,label,mean,min,max,model
+campplus_zhen_adv,1,asnorm@dev_fa1,1.8558576523114385,1.7809816788468102,1.9004253070335346,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,asnorm@dev_fa5,0.7607850287747462,0.6951160762467704,0.798621504993258,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,cos@dev_fa1,0.5265062217714451,0.5235990508871528,0.5286594578833361,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,cos@dev_fa5,0.46645610689202616,0.4648675151573613,0.4674771935184212,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,cos@dev_matched,0.5729475197012465,0.5671689588766615,0.5757192083791836,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,nexaroom@dev_fa1,0.4483030451289748,0.44639630726467083,0.4518306493825047,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,1,nexaroom@dev_fa5,0.3847126602519798,0.3826648192126655,0.38645502033496903,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,asnorm@dev_fa1,2.2133263577758453,2.1564329037010874,2.2351284782447034,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,asnorm@dev_fa5,1.1303902385319815,1.0766814072561226,1.1834322403404243,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,cos@dev_fa1,0.5684278983667682,0.5657813912205183,0.5702164147439962,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,cos@dev_fa5,0.5088675652056618,0.5077519478841305,0.5100324489980095,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,cos@dev_matched,0.5277869968258821,0.5256720220373965,0.529411611924379,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,nexaroom@dev_fa1,0.5579900447118687,0.5528709514593864,0.5654541407384328,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,2,nexaroom@dev_fa5,0.4776085715814052,0.47720875375516264,0.478167734114097,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,asnorm@dev_fa1,2.413972361759682,2.3677903997091483,2.4375214095011986,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,asnorm@dev_fa5,1.3353100199837642,1.273922380153343,1.3793522965636427,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,cos@dev_fa1,0.5917879867930746,0.588849297376357,0.5954402794466914,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,cos@dev_fa5,0.5310197261492452,0.5285907696300712,0.5340050389011434,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,cos@dev_matched,0.5298159630414668,0.5275685543445691,0.5314751612703016,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,nexaroom@dev_fa1,0.6035714427059731,0.5920901328926641,0.6075736735505717,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,3,nexaroom@dev_fa5,0.5015488373045484,0.5001384255146607,0.5032467298006965,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,asnorm@pooled_fa1,2.1978400685942097,2.143503078950099,2.216655184859312,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,asnorm@pooled_fa5,1.1077690810325254,1.0524581179694508,1.147333324376984,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,cos@pooled_fa1,0.5706416123314657,0.5675519480026864,0.5731911904877827,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,cos@pooled_fa5,0.5084366091820971,0.5065269724263829,0.510627708206775,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,nexaroom@pooled_fa1,0.5552931788016136,0.5507940988039054,0.560391723438541,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv,pooled,nexaroom@pooled_fa5,0.4704978382693873,0.4694916764903765,0.47145850008978013,3D-Speaker CAM++ (NexaRoom default)
+campplus_zhen_adv_d1,1,asnorm@dev_fa1,1.9889738935071282,1.9255415034190793,2.0303684497810126,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,asnorm@dev_fa5,0.9278257092849828,0.880507343113123,0.9867697922002505,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,cos@dev_fa1,0.5255036254600828,0.5219080827523795,0.5277852010291684,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,cos@dev_fa5,0.4642180988341577,0.4608071072004535,0.4662873143666102,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,cos@dev_matched,0.5709736328986412,0.56097796651167,0.576098133473402,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,nexaroom@dev_fa1,0.44775985820033765,0.445701227267017,0.44961540951435086,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,1,nexaroom@dev_fa5,0.383277453504325,0.3804501897949229,0.38521062284406216,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,asnorm@dev_fa1,2.2679861856937125,2.2039630525932092,2.319759223060965,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,asnorm@dev_fa5,1.202862335017461,1.162106570458266,1.2532754202509546,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,cos@dev_fa1,0.5581994283880729,0.5563924892876071,0.5599686992651648,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,cos@dev_fa5,0.49649508031367073,0.4940873394337038,0.49830010440694966,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,cos@dev_matched,0.5254559255144049,0.5225230214775403,0.5283278402008419,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,nexaroom@dev_fa1,0.5486670621735987,0.540709148271408,0.5574429874420183,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,2,nexaroom@dev_fa5,0.46605666742291624,0.46399933832327434,0.46763301069782287,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,asnorm@dev_fa1,2.4842594266729945,2.392798682431882,2.524382723824975,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,asnorm@dev_fa5,1.4199023058471645,1.3661157460939062,1.4676761017714823,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,cos@dev_fa1,0.5846998443185318,0.5809467975760085,0.5888135555847094,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,cos@dev_fa5,0.5213810921875848,0.5182767523596784,0.5252212205897133,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,cos@dev_matched,0.527470326442085,0.5255498879360938,0.5300056999205658,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,nexaroom@dev_fa1,0.5916958996150463,0.5773900117668708,0.6023267420920336,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,3,nexaroom@dev_fa5,0.49231462676813387,0.48996020542085916,0.4937932386657689,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,asnorm@pooled_fa1,2.2795801083385863,2.2037760159847486,2.3131168495197825,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,asnorm@pooled_fa5,1.2045329732828118,1.1547213446186257,1.2541876620232248,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,cos@pooled_fa1,0.562774740906997,0.5603600392877924,0.5650768706279642,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,cos@pooled_fa5,0.498508877154077,0.496381294722381,0.5009944914412567,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,nexaroom@pooled_fa1,0.546746099927544,0.539103566326281,0.5524775597656729,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_d1,pooled,nexaroom@pooled_fa5,0.46021757428011006,0.45921102544140385,0.46143215943372135,"3D-Speaker CAM++, 1-LSB noise floor"
+campplus_zhen_adv_ort131,1,asnorm@dev_fa1,1.8640130809495883,1.811499361969665,1.8915497084089057,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,asnorm@dev_fa5,0.7642584896735722,0.7260599988369004,0.7936898556136418,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,cos@dev_fa1,0.5292767452713869,0.5271327990536088,0.5304626879532949,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,cos@dev_fa5,0.4705026797837709,0.4698931505822556,0.47094113764092055,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,cos@dev_matched,0.5723360046399517,0.5671766041356758,0.5752323748733186,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,nexaroom@dev_fa1,0.45072879371769436,0.44772336361612985,0.4536745074269648,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,1,nexaroom@dev_fa5,0.38780835587849616,0.3871245676073804,0.3884151510143552,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,asnorm@dev_fa1,2.1932721563117483,2.1448939640252043,2.2238459983543453,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,asnorm@dev_fa5,1.1200518046322596,1.088539250197347,1.1749410981815247,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,cos@dev_fa1,0.5692847555204807,0.5664422791509692,0.5723040707322183,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,cos@dev_fa5,0.5092260971847231,0.5082656120025633,0.5108072877841523,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,cos@dev_matched,0.5280892528094363,0.5264612732863686,0.5298283733723852,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,nexaroom@dev_fa1,0.558416654310883,0.5528117032398082,0.5647869409121563,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,2,nexaroom@dev_fa5,0.4777344088960119,0.47709996637270563,0.4782956463614278,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,asnorm@dev_fa1,2.4027957403490583,2.344433779395851,2.4402849941531444,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,asnorm@dev_fa5,1.326020249020498,1.2873212087958088,1.383668708149438,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,cos@dev_fa1,0.5919883704122487,0.5897405781551222,0.5947514261286311,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,cos@dev_fa5,0.5326149488975667,0.5311229460174453,0.5346791644545724,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,cos@dev_matched,0.5306697876978198,0.5294376706728817,0.5324528952770561,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,nexaroom@dev_fa1,0.6027555678405496,0.586227869268124,0.6158788960135527,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,3,nexaroom@dev_fa5,0.5022849082335332,0.5017488889618568,0.5027075744127958,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,asnorm@pooled_fa1,2.191179898649303,2.1376148248212696,2.2186233192306175,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,asnorm@pooled_fa5,1.103039629104209,1.0646613460975172,1.15404152323786,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,cos@pooled_fa1,0.5714708170844309,0.5692978647103559,0.5747310320168879,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,cos@pooled_fa5,0.5101197989116348,0.509475460305342,0.5117435615031056,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,nexaroom@pooled_fa1,0.5551604103350025,0.5495938297546188,0.560502028511305,"3D-Speaker CAM++, onnxruntime 1.31.1"
+campplus_zhen_adv_ort131,pooled,nexaroom@pooled_fa5,0.471570119462034,0.47097662325566175,0.47227651720763514,"3D-Speaker CAM++, onnxruntime 1.31.1"
+eres2net_base_zh,1,asnorm@dev_fa1,1.9048524066428432,1.8607990542281478,1.980587367021378,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,asnorm@dev_fa5,0.8557714669431874,0.7704256697090995,0.9301112074491727,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,cos@dev_fa1,0.6087694806276237,0.6068296247412929,0.6120889615337773,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,cos@dev_fa5,0.5497588328706955,0.54613730120755,0.5544608350112702,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,cos@dev_matched,0.5767790860240829,0.5764499024161895,0.5772852740167436,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,nexaroom@dev_fa1,0.5342903514786371,0.5323152219393271,0.5374474335857679,3D-Speaker ERes2Net-base
+eres2net_base_zh,1,nexaroom@dev_fa5,0.46996661485105246,0.465617974892239,0.47518874633206176,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,asnorm@dev_fa1,2.2137761629864947,2.1538838159630327,2.2990031527234485,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,asnorm@dev_fa5,1.2253807614084824,1.1572501251378102,1.3013423543659786,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,cos@dev_fa1,0.6458852573071058,0.6422278201603954,0.6495226867446092,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,cos@dev_fa5,0.5900475881190975,0.5876273383712766,0.5945371710152791,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,cos@dev_matched,0.5393970016938352,0.5381334916625155,0.5407965560679155,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,nexaroom@dev_fa1,0.6320181905968172,0.6268667572854486,0.6366999271292543,3D-Speaker ERes2Net-base
+eres2net_base_zh,2,nexaroom@dev_fa5,0.5615648337622917,0.5585147187976346,0.5659271682777648,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,asnorm@dev_fa1,2.3930115084348005,2.3334874660384872,2.495126866924157,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,asnorm@dev_fa5,1.4147540211220482,1.3477386955547077,1.474303023629626,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,cos@dev_fa1,0.6647027367657986,0.6621496910932273,0.6678716428477555,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,cos@dev_fa5,0.6107597951750265,0.6066478825882697,0.6151932378238888,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,cos@dev_matched,0.5445041018560927,0.5421994010064937,0.5466634220283992,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,nexaroom@dev_fa1,0.6614147108581406,0.6539587200186293,0.6696535762146666,3D-Speaker ERes2Net-base
+eres2net_base_zh,3,nexaroom@dev_fa5,0.5832753602878917,0.5805842166034688,0.5872867720515597,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,asnorm@pooled_fa1,2.204636504350664,2.149792607265374,2.2767428380159314,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,asnorm@pooled_fa5,1.1998046173209327,1.1279039656825536,1.26974326735223,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,cos@pooled_fa1,0.6473163698244415,0.6450282604993702,0.6506330884547871,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,cos@pooled_fa5,0.589350267555984,0.5858110196837646,0.5942151863972761,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,nexaroom@pooled_fa1,0.6286203164341562,0.6247228862642961,0.6314915572822134,3D-Speaker ERes2Net-base
+eres2net_base_zh,pooled,nexaroom@pooled_fa5,0.5542731531393754,0.5517760576992662,0.5584990519361378,3D-Speaker ERes2Net-base
+titanet_small,1,asnorm@dev_fa1,1.9719526436625912,1.8842726468299829,2.030817454522972,NeMo TitaNet-small
+titanet_small,1,asnorm@dev_fa5,0.8749916976425236,0.8427180192282614,0.9224493308934504,NeMo TitaNet-small
+titanet_small,1,cos@dev_fa1,0.5022681438571776,0.4967516928179071,0.505152958726879,NeMo TitaNet-small
+titanet_small,1,cos@dev_fa5,0.4319022890165437,0.4269652002456574,0.4351671067411854,NeMo TitaNet-small
+titanet_small,1,cos@dev_matched,0.5600594169450913,0.5523072297707895,0.5658898095570829,NeMo TitaNet-small
+titanet_small,1,nexaroom@dev_fa1,0.4263041875087249,0.41994974021890286,0.43047188532656,NeMo TitaNet-small
+titanet_small,1,nexaroom@dev_fa5,0.3489370791292665,0.34431380441268555,0.3518269556203688,NeMo TitaNet-small
+titanet_small,2,asnorm@dev_fa1,2.257941428816752,2.192257636673498,2.3150417186806975,NeMo TitaNet-small
+titanet_small,2,asnorm@dev_fa5,1.2155537945601886,1.1594213101340907,1.2728417968713808,NeMo TitaNet-small
+titanet_small,2,cos@dev_fa1,0.5528229669238943,0.5450158055948887,0.5571450843250059,NeMo TitaNet-small
+titanet_small,2,cos@dev_fa5,0.48167918460640313,0.47564030929445467,0.4852948237441472,NeMo TitaNet-small
+titanet_small,2,cos@dev_matched,0.5175630179941751,0.5136554763468457,0.5227461480225571,NeMo TitaNet-small
+titanet_small,2,nexaroom@dev_fa1,0.561541341179662,0.5493981947665747,0.5757150485990719,NeMo TitaNet-small
+titanet_small,2,nexaroom@dev_fa5,0.45243893200947827,0.44527954060540603,0.4558919636812237,NeMo TitaNet-small
+titanet_small,3,asnorm@dev_fa1,2.4252677911712888,2.382975780517946,2.456035405107461,NeMo TitaNet-small
+titanet_small,3,asnorm@dev_fa5,1.384885426946822,1.3512881850589438,1.420626266431061,NeMo TitaNet-small
+titanet_small,3,cos@dev_fa1,0.5767628402855466,0.5678807477426281,0.5804990878365,NeMo TitaNet-small
+titanet_small,3,cos@dev_fa5,0.5044870893784249,0.49727344358472475,0.5096213548648911,NeMo TitaNet-small
+titanet_small,3,cos@dev_matched,0.5200782677577857,0.5161569741478359,0.5255927971213004,NeMo TitaNet-small
+titanet_small,3,nexaroom@dev_fa1,0.6067908068562919,0.5936060450659787,0.6176817122571081,NeMo TitaNet-small
+titanet_small,3,nexaroom@dev_fa5,0.478222696188355,0.4701933679384919,0.48358138310684634,NeMo TitaNet-small
+titanet_small,pooled,asnorm@pooled_fa1,2.2450793477989643,2.182986794752331,2.278753660812191,NeMo TitaNet-small
+titanet_small,pooled,asnorm@pooled_fa5,1.1839241792694142,1.138155877588494,1.2321041281357594,NeMo TitaNet-small
+titanet_small,pooled,cos@pooled_fa1,0.5533957499371558,0.5457297110625003,0.5571418293715905,NeMo TitaNet-small
+titanet_small,pooled,cos@pooled_fa5,0.4788946199819448,0.47249039554421735,0.4829942392344665,NeMo TitaNet-small
+titanet_small,pooled,nexaroom@pooled_fa1,0.5534929237910566,0.5401166801984439,0.5645608335526126,NeMo TitaNet-small
+titanet_small,pooled,nexaroom@pooled_fa5,0.4421569891994733,0.43523633839892834,0.44627378443918025,NeMo TitaNet-small
+wespeaker_campplus_vox,1,asnorm@dev_fa1,-30.894067310228866,-35.68992706051678,-25.615006477683313,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,asnorm@dev_fa5,-48.412807951825656,-55.57367211977832,-39.41344953116437,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,cos@dev_fa1,0.414598038328618,0.4089596818156506,0.4252931077935927,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,cos@dev_fa5,0.37673987491539307,0.372592906957804,0.38316941737633464,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,cos@dev_matched,0.5333163498250345,0.5002880726309205,0.5583689011108904,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,nexaroom@dev_fa1,0.2704664584812983,0.18712707893502212,0.3207110312080478,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,1,nexaroom@dev_fa5,0.18652545275538385,0.18010148153260214,0.19190364332146242,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,asnorm@dev_fa1,-44.13778049598055,-54.66281263505428,-35.85180057416721,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,asnorm@dev_fa5,-63.65416747648089,-72.16225832284387,-51.86982649797836,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,cos@dev_fa1,0.2516264893874486,0.2413843648852986,0.2588367426635003,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,cos@dev_fa5,0.21145843167709039,0.20355968502080485,0.21542615766313553,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,cos@dev_matched,0.3387807262707839,0.3129751530907246,0.35734876039211555,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,nexaroom@dev_fa1,-0.011333010600511494,-0.04039822965679177,-0.0011721283712382603,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,2,nexaroom@dev_fa5,-0.011333010600511494,-0.04039822965679177,-0.0011721283712382603,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,asnorm@dev_fa1,-23.44573817919524,-25.635113550391573,-20.480308453333304,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,asnorm@dev_fa5,-33.146675856281036,-37.283348855172555,-28.53646335715173,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,cos@dev_fa1,0.651445999178681,0.6464457855512283,0.6587696052724384,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,cos@dev_fa5,0.6172636133484868,0.6146366520597125,0.6208108992358019,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,cos@dev_matched,0.6996904677104651,0.6902377267921155,0.7066897690039948,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,nexaroom@dev_fa1,0.4418320940921833,0.4073121793445974,0.49474598050714313,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,3,nexaroom@dev_fa5,0.4418320940921833,0.4073121793445974,0.49474598050714313,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,asnorm@pooled_fa1,-28.097238432707563,-32.84782160300034,-23.98744011486765,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,asnorm@pooled_fa5,-41.74594784960969,-46.94104708407596,-35.74640311242737,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,cos@pooled_fa1,0.6256934468738681,0.6231498214342652,0.6291084199737981,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,cos@pooled_fa5,0.5987841427726682,0.5960000750961022,0.6020467673806694,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,nexaroom@pooled_fa1,0.023203219838106894,-0.04039822965679177,0.16561974646270375,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox,pooled,nexaroom@pooled_fa5,-0.011333010600511494,-0.04039822965679177,-0.0011721283712382603,"WeSpeaker CAM++ VoxCeleb, sherpa-onnx as shipped"
+wespeaker_campplus_vox_wsfe,1,asnorm@dev_fa1,1.806525302211001,1.7298628145709307,1.8435643590820519,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,asnorm@dev_fa5,0.6844389427402721,0.5806435283754723,0.7341504430229823,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,cos@dev_fa1,0.5219087538423789,0.518942831883161,0.5253335271574177,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,cos@dev_fa5,0.45421317022691704,0.451154300911007,0.45753835070423593,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,cos@dev_matched,0.5542507952500471,0.544678057441546,0.559887102401815,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,nexaroom@dev_fa1,0.44950732195863746,0.447070098538522,0.45074947407068255,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,1,nexaroom@dev_fa5,0.36952319272987016,0.36561059645057814,0.37247046814886997,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,asnorm@dev_fa1,2.170979326900075,2.0652575591391837,2.2287816551584676,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,asnorm@dev_fa5,1.1074574690276426,1.0161596404358175,1.1435278012880612,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,cos@dev_fa1,0.5718434888521416,0.5628990117780176,0.5811316770686407,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,cos@dev_fa5,0.5064119642821779,0.5012833142478968,0.5125025668094783,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,cos@dev_matched,0.5163094751145311,0.510996874410602,0.5209689787233366,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,nexaroom@dev_fa1,0.6264215689098964,0.6209126305130455,0.6357817380605506,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,2,nexaroom@dev_fa5,0.4839847537814738,0.48147750192387967,0.487948772381023,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,asnorm@dev_fa1,2.357438381026678,2.26810430890694,2.407642711786576,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,asnorm@dev_fa5,1.332084175545192,1.2416921707291304,1.379054008793589,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,cos@dev_fa1,0.5996321074682518,0.5942493000090839,0.6044180825818891,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,cos@dev_fa5,0.5363209295601805,0.5315101047058114,0.5412532652829595,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,cos@dev_matched,0.5222274935369045,0.5177274418672887,0.5263836029648363,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,nexaroom@dev_fa1,0.6753985060551007,0.6695121713209933,0.6817445843186232,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,3,nexaroom@dev_fa5,0.5245787539386535,0.5242870956057661,0.5251044516083105,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,asnorm@pooled_fa1,2.1587771371853806,2.066351869731203,2.193868564566087,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,asnorm@pooled_fa5,1.0870538344835805,0.9926510065228943,1.1225962933309475,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,cos@pooled_fa1,0.5761048341907442,0.5694216589749869,0.582666932279278,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,cos@pooled_fa5,0.5085432482557082,0.5037186285351372,0.5136845426234904,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,nexaroom@pooled_fa1,0.6269056446218914,0.6231152383960744,0.6336728374118287,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_campplus_vox_wsfe,pooled,nexaroom@pooled_fa5,0.47761510376250077,0.47527032031465916,0.4802917458736576,WeSpeaker CAM++ VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,asnorm@dev_fa1,1.7080613341829949,1.6536178366758552,1.7570500869910024,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,asnorm@dev_fa5,0.679958997015594,0.6378698608241143,0.72320043125868,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,cos@dev_fa1,0.6180128009741862,0.6141088179458296,0.6197767102044104,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,cos@dev_fa5,0.5581599587266843,0.5558800356587233,0.5600476467264346,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,cos@dev_matched,0.5816220800537882,0.58025034816554,0.5826089586605309,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,nexaroom@dev_fa1,0.5402703303821967,0.5365790277083967,0.5421076201725394,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,1,nexaroom@dev_fa5,0.47391911089679184,0.4717840125878854,0.475220213145352,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,asnorm@dev_fa1,2.044918240181362,1.9749358101041752,2.0840800364291927,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,asnorm@dev_fa5,1.0528383076643022,1.0115816535563757,1.090675694538838,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,cos@dev_fa1,0.6585593202104445,0.6548274012880193,0.6613227899189821,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,cos@dev_fa5,0.6010640343485372,0.5983891566712269,0.6029095100312423,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,cos@dev_matched,0.5444562331728229,0.5435639831279597,0.545934057933628,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,nexaroom@dev_fa1,0.6641178172992636,0.6432902422448714,0.6856722039427615,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,2,nexaroom@dev_fa5,0.5705031296593301,0.5669283138534983,0.5716862356573433,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,asnorm@dev_fa1,2.2235454603863856,2.1318629507498805,2.2739015109858407,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,asnorm@dev_fa5,1.2592208491352257,1.208808017759345,1.29360297490508,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,cos@dev_fa1,0.6806333222928315,0.6785840170839712,0.6827269881914172,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,cos@dev_fa5,0.6248311256890737,0.621738077545423,0.6274826564302591,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,cos@dev_matched,0.5504310946441268,0.5490399353573416,0.5519482685505612,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,nexaroom@dev_fa1,0.7308413288532373,0.7186384246146986,0.7389593731740225,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,3,nexaroom@dev_fa5,0.5975651514320569,0.5928904678139045,0.6005516933485028,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,asnorm@pooled_fa1,2.0252696461804773,1.950816259261854,2.066026186568743,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,asnorm@pooled_fa5,1.0354529892638802,0.997083221389258,1.0702875852649794,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,cos@pooled_fa1,0.6612747563853743,0.6584966251362204,0.663964046064628,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,cos@pooled_fa5,0.6016248576936754,0.5986920384311825,0.60406424527483,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,nexaroom@pooled_fa1,0.6609066715493184,0.6449601977630296,0.6774042330768872,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_cnc_wsfe,pooled,nexaroom@pooled_fa5,0.5637284238466193,0.5600482619306023,0.565705087690342,WeSpeaker ResNet34 CN-Celeb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,asnorm@dev_fa1,1.926406232803922,1.7838824514510923,2.0204127378658012,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,asnorm@dev_fa5,0.782159786807919,0.6859972008664089,0.8465228200506675,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,cos@dev_fa1,0.5539891380688843,0.5506711825149025,0.5566532946025297,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,cos@dev_fa5,0.48212184702441974,0.48035531253044694,0.4850864861058976,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,cos@dev_matched,0.5718655238439451,0.5686341681703828,0.5749268346165103,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,nexaroom@dev_fa1,0.4759404744806249,0.4725172417400124,0.47809038342079047,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,1,nexaroom@dev_fa5,0.3950435988368762,0.39273504728219855,0.3980635967898516,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,asnorm@dev_fa1,2.2193178937892717,2.0903826282467604,2.3537367361513675,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,asnorm@dev_fa5,1.1446989964908054,1.026053155964696,1.2184321371693074,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,cos@dev_fa1,0.5883761562781447,0.5817914329705504,0.5952444401256225,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,cos@dev_fa5,0.5224017618721968,0.5195976288938566,0.5258402282232539,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,cos@dev_matched,0.529839898456236,0.5286754500825991,0.5316915042879237,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,nexaroom@dev_fa1,0.623459572989184,0.6016333407721496,0.6363793897366624,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,2,nexaroom@dev_fa5,0.49046295034128146,0.48758439089219024,0.49438310738027863,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,asnorm@dev_fa1,2.38123560492672,2.2616739836110535,2.49707707787572,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,asnorm@dev_fa5,1.3291622206042362,1.2167473708032268,1.4031654616034352,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,cos@dev_fa1,0.6077541386282378,0.6020624228965,0.6133044644830175,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,cos@dev_fa5,0.5432493412129558,0.5399526848965382,0.5467197203862239,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,cos@dev_matched,0.5321242550587509,0.5306030487187914,0.5332431504442467,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,nexaroom@dev_fa1,0.6698022359490072,0.6642806129917331,0.6758554576446397,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,3,nexaroom@dev_fa5,0.5152408169967565,0.5116422776106219,0.517685036546699,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,asnorm@pooled_fa1,2.209843627356741,2.083977369183887,2.3309148643357003,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,asnorm@pooled_fa5,1.1166276230608578,1.004770932497329,1.1837949715004286,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,cos@pooled_fa1,0.5896983390944586,0.5841644716378157,0.5949450769546476,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,cos@pooled_fa5,0.5219380399141474,0.5190584824915025,0.5247760003498009,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,nexaroom@pooled_fa1,0.6114369329024769,0.5952611681791282,0.6180654079653374,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)
+wespeaker_resnet34_vox_wsfe,pooled,nexaroom@pooled_fa5,0.481935318907742,0.4788764523393072,0.48535184184202745,WeSpeaker ResNet34 VoxCeleb (WeSpeaker front end)

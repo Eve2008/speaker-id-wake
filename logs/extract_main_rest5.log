@@ -1,0 +1,10 @@
+[wespeaker_resnet34_vox] 70524 of 83924 specs to embed
+[wespeaker_resnet34_vox] 300/70524 specs, 1.2 min, eta 274.6 min
+[wespeaker_resnet34_vox] 3300/70524 specs, 2.8 min, eta 57.1 min
+[wespeaker_resnet34_vox] 6300/70524 specs, 4.3 min, eta 44.2 min
+[wespeaker_resnet34_vox] 9300/70524 specs, 7.7 min, eta 50.8 min
+[wespeaker_resnet34_vox] 12300/70524 specs, 9.7 min, eta 46.0 min
+[wespeaker_resnet34_vox] 15300/70524 specs, 12.8 min, eta 46.1 min
+[wespeaker_resnet34_vox] 18300/70524 specs, 14.5 min, eta 41.5 min
+/home/ali/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

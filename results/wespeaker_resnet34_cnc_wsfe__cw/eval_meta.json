@@ -1,0 +1,37 @@
+{
+ "config": "wespeaker_resnet34_cnc_wsfe__cw",
+ "backend": "cw",
+ "bootstrap_population": 1362,
+ "backend_fit": [
+  {
+   "seed": 0,
+   "n_dev_vectors": 6370,
+   "dim": 256,
+   "ridge": 2.941461924375266e-06
+  },
+  {
+   "seed": 1,
+   "n_dev_vectors": 6370,
+   "dim": 256,
+   "ridge": 2.9281149178769376e-06
+  },
+  {
+   "seed": 2,
+   "n_dev_vectors": 6370,
+   "dim": 256,
+   "ridge": 2.949865074732018e-06
+  },
+  {
+   "seed": 3,
+   "n_dev_vectors": 6370,
+   "dim": 256,
+   "ridge": 2.9550525743069287e-06
+  },
+  {
+   "seed": 4,
+   "n_dev_vectors": 6370,
+   "dim": 256,
+   "ridge": 2.9404332284806735e-06
+  }
+ ]
+}

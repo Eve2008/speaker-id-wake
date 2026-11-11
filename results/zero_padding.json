@@ -1,0 +1,12 @@
+{
+ "n_clips": 8196,
+ "zero_share_median": 0.615375,
+ "zero_share_p25": 0.504625,
+ "zero_share_p75": 0.704140625,
+ "share_clips_zero_run_ge_0.1s": 0.984382625671059,
+ "longest_zero_run_s_median": 0.314125,
+ "frames_at_log_floor_share_median": 0.5816326530612245,
+ "log_floor": -15.942384719848633,
+ "loudest10pct_frame_logmel_median_int16": 17.407676073523362,
+ "gap_nats_median": 33.350060793371995
+}

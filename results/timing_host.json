@@ -1,0 +1,16 @@
+{
+ "virtualization": "vmware",
+ "hypervisor_vendor": "VMware",
+ "model_name": "13th Gen Intel(R) Core(TM) i9-13900H",
+ "vcpus": 20,
+ "threads_per_core": "1",
+ "sockets": "4",
+ "cores_per_socket": "5",
+ "isa_flags_of_note": [
+  "avx2",
+  "avx_vnni",
+  "fma"
+ ],
+ "kernel": "7.0.0-43-generic",
+ "note": "The timing runs used one pinned vCPU of a VMware guest; the mapping of that vCPU to a performance or efficiency core of the host i9-13900H is not visible from inside the guest."
+}

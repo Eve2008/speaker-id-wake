@@ -1,0 +1,16 @@
+wespeaker_campplus_vox raw {'eer_cos_1s': 0.49538002171552653, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.20943333333333336, 'norm_of_mean_test_embedding': 0.8779044843936403}
+wespeaker_campplus_vox dither_1lsb {'eer_cos_1s': 0.49990274093722364, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.21443333333333334, 'norm_of_mean_test_embedding': 0.8585608268095707}
+campplus_zhen_adv raw {'eer_cos_1s': 0.0800151515151515, 'mindcf_1s': 0.6316666666666684, 'closed_set_acc_N5_1s': 0.9472666666666667, 'norm_of_mean_test_embedding': 0.4448910508379404}
+campplus_zhen_adv dither_1lsb {'eer_cos_1s': 0.07500000000000001, 'mindcf_1s': 0.6266666666666665, 'closed_set_acc_N5_1s': 0.9538999999999999, 'norm_of_mean_test_embedding': 0.44706852556508664}
+titanet_small raw {'eer_cos_1s': 0.11691954022988507, 'mindcf_1s': 0.8316666666666646, 'closed_set_acc_N5_1s': 0.9111333333333332, 'norm_of_mean_test_embedding': 0.3740437136823182}
+titanet_small dither_1lsb {'eer_cos_1s': 0.11666666666666667, 'mindcf_1s': 0.8283333333333368, 'closed_set_acc_N5_1s': 0.9115, 'norm_of_mean_test_embedding': 0.3744163604441259}
+wespeaker_resnet34_vox raw {'eer_cos_1s': 0.3525372023809524, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.6863666666666668, 'norm_of_mean_test_embedding': 0.8449589008072079}
+wespeaker_resnet34_vox dither_1lsb {'eer_cos_1s': 0.2683333333333333, 'mindcf_1s': 0.995, 'closed_set_acc_N5_1s': 0.7315999999999999, 'norm_of_mean_test_embedding': 0.7245549105851238}
+wespeaker_campplus_vox_cmn raw {'eer_cos_1s': 0.49235955056179775, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.23679999999999998, 'norm_of_mean_test_embedding': 0.9017024760890792}
+wespeaker_campplus_vox_cmn dither_1lsb {'eer_cos_1s': 0.5033333333333334, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.21206666666666668, 'norm_of_mean_test_embedding': 0.8329743936297487}
+eres2net_base_zh raw {'eer_cos_1s': 0.06458015267175572, 'mindcf_1s': 0.4849999999999966, 'closed_set_acc_N5_1s': 0.968, 'norm_of_mean_test_embedding': 0.4464509948522312}
+eres2net_base_zh dither_1lsb {'eer_cos_1s': 0.05668010752688171, 'mindcf_1s': 0.4550000000000054, 'closed_set_acc_N5_1s': 0.9748, 'norm_of_mean_test_embedding': 0.43343058008787305}
+wespeaker_resnet34_cnc raw {'eer_cos_1s': 0.16371863799283154, 'mindcf_1s': 0.9550000000000016, 'closed_set_acc_N5_1s': 0.8958666666666666, 'norm_of_mean_test_embedding': 0.703282994279165}
+wespeaker_resnet34_cnc dither_1lsb {'eer_cos_1s': 0.10666666666666669, 'mindcf_1s': 0.7233333333333292, 'closed_set_acc_N5_1s': 0.9426999999999999, 'norm_of_mean_test_embedding': 0.5646048091946049}
+wespeaker_resnet34_vox_cmn raw {'eer_cos_1s': 0.41024822695035457, 'mindcf_1s': 1.0, 'closed_set_acc_N5_1s': 0.5533333333333333, 'norm_of_mean_test_embedding': 0.8299378462813041}
+wespeaker_resnet34_vox_cmn dither_1lsb {'eer_cos_1s': 0.08333333333333331, 'mindcf_1s': 0.7333333333333372, 'closed_set_acc_N5_1s': 0.9376333333333332, 'norm_of_mean_test_embedding': 0.3979892736396693}

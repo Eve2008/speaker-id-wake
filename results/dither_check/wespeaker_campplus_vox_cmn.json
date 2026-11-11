@@ -1,0 +1,18 @@
+{
+ "model": "wespeaker_campplus_vox_cmn",
+ "n_speakers": 100,
+ "n_test": 600,
+ "seed": 0,
+ "raw": {
+  "eer_cos_1s": 0.49235955056179775,
+  "mindcf_1s": 1.0,
+  "closed_set_acc_N5_1s": 0.23679999999999998,
+  "norm_of_mean_test_embedding": 0.9017024760890792
+ },
+ "dither_1lsb": {
+  "eer_cos_1s": 0.5033333333333334,
+  "mindcf_1s": 1.0,
+  "closed_set_acc_N5_1s": 0.21206666666666668,
+  "norm_of_mean_test_embedding": 0.8329743936297487
+ }
+}

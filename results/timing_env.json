@@ -1,0 +1,20 @@
+{
+ "cpu": "Model name:                              13th Gen Intel(R) Core(TM) i9-13900H",
+ "python": "3.12.16",
+ "machine": "x86_64",
+ "loadavg_before": [
+  2.10546875,
+  4.8466796875,
+  8.6044921875
+ ],
+ "core": 3,
+ "repeats": 30,
+ "warmup": 3,
+ "note": "Other jobs were running on the machine; numbers are single-thread wall/CPU time on one pinned core.",
+ "sherpa_onnx": "2.0.1",
+ "loadavg_after": [
+  2.2919921875,
+  3.494140625,
+  7.21875
+ ]
+}

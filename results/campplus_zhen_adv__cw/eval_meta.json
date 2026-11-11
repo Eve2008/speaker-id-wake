@@ -1,0 +1,37 @@
+{
+ "config": "campplus_zhen_adv__cw",
+ "backend": "cw",
+ "bootstrap_population": 1362,
+ "backend_fit": [
+  {
+   "seed": 0,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.157807986829644e-06
+  },
+  {
+   "seed": 1,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.159762943615636e-06
+  },
+  {
+   "seed": 2,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.159745657231993e-06
+  },
+  {
+   "seed": 3,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.165285721505164e-06
+  },
+  {
+   "seed": 4,
+   "n_dev_vectors": 6370,
+   "dim": 192,
+   "ridge": 4.1733097218578745e-06
+  }
+ ]
+}

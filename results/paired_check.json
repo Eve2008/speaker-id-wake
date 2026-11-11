@@ -1,0 +1,139 @@
+{
+ "shared_weight_seed": 777,
+ "n_boot": 1000,
+ "models": [
+  {
+   "model": "campplus_zhen_adv",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 7.178985161893081e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.3006381273269654
+  },
+  {
+   "model": "campplus_zhen_adv_d1",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.100668961002583e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.1467154463132223
+  },
+  {
+   "model": "campplus_zhen_adv_ort131",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 4.107521633933686e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.9803640882174174
+  },
+  {
+   "model": "campplus_zhen_adv_np128",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.602382109806456e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 0.872779659430186
+  },
+  {
+   "model": "campplus_zhen_adv_cip0",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 7.880567787221793e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.557084357738495
+  },
+  {
+   "model": "campplus_zhen_adv_cip0_d1",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.218959060940051e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.1722351948420207
+  },
+  {
+   "model": "eres2net_base_zh",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 1.2440855012840757e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 0.9463961601257325
+  },
+  {
+   "model": "titanet_small",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.255669762085688e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 0.8535871227582296
+  },
+  {
+   "model": "wespeaker_campplus_vox_wsfe",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 1.0482949908130479e-07,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.4147725621859233
+  },
+  {
+   "model": "wespeaker_resnet34_vox_wsfe",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 5.6779246304650144e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.4300519267717997
+  },
+  {
+   "model": "wespeaker_resnet34_cnc_wsfe",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 3.789362046369149e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.4219106038411458
+  },
+  {
+   "model": "eres2net_base_zh_d1",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 4.747919712944082e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 0.8746458689371744
+  },
+  {
+   "model": "titanet_small_d1",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.2638277030750942e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.2486418247222901
+  },
+  {
+   "model": "campplus_zhen_adv__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 2.4392233566317145e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.168274470170339
+  },
+  {
+   "model": "eres2net_base_zh__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 5.4862130838273515e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.8726330955823263
+  },
+  {
+   "model": "titanet_small__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 5.7146353427128815e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.1890704830487568
+  },
+  {
+   "model": "wespeaker_campplus_vox_wsfe__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 7.464512941091073e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.4099828441937765
+  },
+  {
+   "model": "wespeaker_resnet34_vox_wsfe__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 5.2414749540652394e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.1923900842666626
+  },
+  {
+   "model": "wespeaker_resnet34_cnc_wsfe__cw",
+   "n_metric_keys_checked": 156,
+   "max_abs_diff_vs_main_csv": 6.024636967083552e-08,
+   "max_abs_diff_eer_vs_eer_csv": 0.0,
+   "minutes": 1.1415547211964925
+  }
+ ]
+}
